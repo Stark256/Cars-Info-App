@@ -17,3 +17,6 @@ rootProject.name = "Cars Info"
 include(":app")
 include(":data")
 include(":database")
+include(":search")
+include(":account")
+include(":favourites")
