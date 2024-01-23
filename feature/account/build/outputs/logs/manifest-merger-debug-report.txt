@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml:2:1-4:12
+INJECTED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml:2:1-4:12
+	package
+		INJECTED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml
+INJECTED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from W:\Projects\Personal\CarsInfo\feature\account\src\main\AndroidManifest.xml
