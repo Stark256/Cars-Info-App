@@ -1,23 +1,19 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin)
     alias(libs.plugins.kapt)
-    alias(libs.plugins.hilt)
     alias(libs.plugins.ktlint)
 }
 
 android {
-    namespace = "com.cars.info"
-    compileSdk = 34
+    namespace = "com.cars.info.common"
+    compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.cars.info"
-        minSdk = 28
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        minSdk = libs.versions.minSdk.get().toInt()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -43,24 +39,10 @@ android {
 }
 
 dependencies {
-    implementation(project(":common"))
-
-    implementation(project(":feature:search"))
-    implementation(project(":feature:favourites"))
-    implementation(project(":feature:account"))
 
     implementation(libs.androidx.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
-    implementation(libs.androidx.constraint.layout)
-    implementation(libs.androidx.lifecycle.viewmodel)
-    implementation(libs.navigation.fragment)
-    implementation(libs.navigation.ui)
-    implementation(libs.kotlinx.coroutines.android)
-
-    // Hilt
-    kapt(libs.hilt.compiler)
-    implementation(libs.hilt.android)
 
     testImplementation(libs.junit)
 }

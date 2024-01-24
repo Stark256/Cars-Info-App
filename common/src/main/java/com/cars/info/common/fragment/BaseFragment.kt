@@ -1,4 +1,4 @@
-package com.cars.info
+package com.cars.info.common.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -24,5 +24,4 @@ abstract class BaseFragment<T : ViewDataBinding> : Fragment() {
             viewLifecycleOwner = viewLifecycleOwner
         )
     }.root
-
 }
