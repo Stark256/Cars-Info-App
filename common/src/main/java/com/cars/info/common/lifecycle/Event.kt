@@ -1,4 +1,4 @@
-package com.cars.info
+package com.cars.info.common.lifecycle
 
 import androidx.lifecycle.MutableLiveData
 

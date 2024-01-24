@@ -1,36 +1,18 @@
 package com.cars.info.favourites
 
-import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
+import com.cars.info.common.fragment.BaseFragment
 import com.cars.info.favourites.databinding.FragmentFavouritesBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-class FavouritesFragment : Fragment() {
+@AndroidEntryPoint
+class FavouritesFragment : BaseFragment<FragmentFavouritesBinding>() {
 
-    private var _binding: FragmentFavouritesBinding? = null
+    private val viewModel: FavouritesViewModel by viewModels()
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        val favouritesViewModel = ViewModelProvider(this).get(FavouritesViewModel::class.java)
-
-        _binding = FragmentFavouritesBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-
-        return root
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
+    override fun createBinding(inflater: LayoutInflater): FragmentFavouritesBinding =
+        FragmentFavouritesBinding.inflate(inflater).apply {
+            lifecycleOwner = viewLifecycleOwner
+        }
 }

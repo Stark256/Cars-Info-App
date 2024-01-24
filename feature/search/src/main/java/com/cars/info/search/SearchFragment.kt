@@ -1,35 +1,18 @@
 package com.cars.info.search
 
-import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
+import androidx.fragment.app.viewModels
+import com.cars.info.common.fragment.BaseFragment
 import com.cars.info.search.databinding.FragmentSearchBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-class SearchFragment : Fragment() {
+@AndroidEntryPoint
+class SearchFragment : BaseFragment<FragmentSearchBinding>() {
 
-    private var _binding: FragmentSearchBinding? = null
+    private val viewModel: SearchViewModel by viewModels()
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        val searchViewModel = ViewModelProvider(this).get(SearchViewModel::class.java)
-
-        _binding = FragmentSearchBinding.inflate(inflater, container, false)
-        val root: View = binding.root
-        return root
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
-    }
+    override fun createBinding(inflater: LayoutInflater): FragmentSearchBinding =
+        FragmentSearchBinding.inflate(inflater).apply {
+            lifecycleOwner = viewLifecycleOwner
+        }
 }

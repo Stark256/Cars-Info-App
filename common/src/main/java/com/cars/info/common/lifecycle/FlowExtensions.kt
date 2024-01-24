@@ -1,4 +1,4 @@
-package com.cars.info
+package com.cars.info.common.lifecycle
 
 import kotlinx.coroutines.channels.BufferOverflow
 import kotlinx.coroutines.flow.MutableSharedFlow

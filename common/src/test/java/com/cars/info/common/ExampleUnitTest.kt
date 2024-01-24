@@ -1,4 +1,4 @@
-package com.cars.info
+package com.cars.info.common
 
 import org.junit.Assert.*
 import org.junit.Test
