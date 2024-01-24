@@ -48,10 +48,10 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.constraint.layout)
-    implementation(libs.androidx.lifecycle.livedata)
     implementation(libs.androidx.lifecycle.viewmodel)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(libs.kotlinx.coroutines.android)
 
     testImplementation(libs.junit)
 }
