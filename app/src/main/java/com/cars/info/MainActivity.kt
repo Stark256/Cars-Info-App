@@ -1,21 +1,22 @@
 package com.cars.info
 
 import android.os.Bundle
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.children
 import androidx.lifecycle.Lifecycle
-import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.navigation.NavController
 import androidx.navigation.NavOptions
 import androidx.navigation.findNavController
 import com.cars.info.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
-
 
 
     private lateinit var binding: ActivityMainBinding
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     private val navigationController: NavController
         get() = findNavController(R.id.main_navigation_fragment)
 
-    private lateinit var viewModel: MainViewModel
+    private val viewModel: MainViewModel by viewModels()
 
     private val onNavigationDestinationChangeListener =
         NavController.OnDestinationChangedListener {  _, destination, _ ->
@@ -45,8 +46,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-
-        viewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
         navigationController.addOnDestinationChangedListener(onNavigationDestinationChangeListener)
 
