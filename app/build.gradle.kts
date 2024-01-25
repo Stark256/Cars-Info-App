@@ -46,7 +46,6 @@ android {
 dependencies {
     implementation(project(":common"))
 
-    implementation(project(":feature:authorization"))
     implementation(project(":feature:search"))
     implementation(project(":feature:favourites"))
     implementation(project(":feature:account"))
