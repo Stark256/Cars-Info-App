@@ -4,16 +4,17 @@ plugins {
     alias(libs.plugins.kapt)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ktlint)
+    alias(libs.plugins.navigation)
 }
 
 android {
     namespace = "com.cars.info"
-    compileSdk = 34
+    compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
         applicationId = "com.cars.info"
-        minSdk = 28
-        targetSdk = 34
+        minSdk = libs.versions.minSdk.get().toInt()
+        targetSdk = libs.versions.compileSdk.get().toInt()
         versionCode = 1
         versionName = "1.0"
 
@@ -45,6 +46,7 @@ android {
 dependencies {
     implementation(project(":common"))
 
+    implementation(project(":feature:authorization"))
     implementation(project(":feature:search"))
     implementation(project(":feature:favourites"))
     implementation(project(":feature:account"))

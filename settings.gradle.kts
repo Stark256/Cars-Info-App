@@ -15,9 +15,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "Cars Info"
 include(":app")
+include(":common")
 include(":data")
 include(":database")
+include(":feature:authorization")
 include(":feature:search")
 include(":feature:account")
 include(":feature:favourites")
-include(":common")

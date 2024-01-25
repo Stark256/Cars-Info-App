@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.cars.info.favourites"
+    namespace = "com.cars.info.authorization"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
