@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
 
     private val noBottomNavList = listOf(
         R.id.nav_splash
-        // TODO add auth nav to hide bottomNavBar
     )
 
     private val onNavigationDestinationChangeListener =
@@ -108,7 +107,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun handleEvent(event: Event<MainViewModel.Action>) {
         when (event.pop()) {
-            is MainViewModel.Action.GoToAuth -> navigateToAuthorizationScreen()
             is MainViewModel.Action.GoToSearch -> navigateToSearchScreen()
             is MainViewModel.Action.GoToFavourites -> navigateToFavouritesScreen()
             is MainViewModel.Action.GoToAccount -> navigateToAccountScreen()
@@ -116,9 +114,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun navigateToAuthorizationScreen() {
-        navigationController.navigate(NavGraphDirections.actionToAuth())
-    }
+    // TODO remove
+//    private fun navigateToAuthorizationScreen() {
+//        navigationController.navigate(NavGraphDirections.actionToAuth())
+//    }
 
     private fun navigateToSearchScreen() {
         binding?.bottomNavView?.selectedItemId = R.id.search_nav
