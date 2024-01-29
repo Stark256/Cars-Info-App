@@ -31,7 +31,6 @@ class MainActivity : AppCompatActivity() {
 
     private val noBottomNavList = listOf(
         R.id.nav_splash
-        // TODO add auth nav to hide bottomNavBar
     )
 
     private val onNavigationDestinationChangeListener =
