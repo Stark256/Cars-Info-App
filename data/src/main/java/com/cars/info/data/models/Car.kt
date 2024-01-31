@@ -20,6 +20,7 @@ data class Car(
     val dimensions: Dimensions, // 219" x 73" x 72"
     val cargoCapacity: Float?, // 14.3 cubic feet
     val seatingCapacity: String, // 4-5 seats
-    val feature: List<String>
+    val feature: List<String>,
+    val image: String
 )
 // N/A
