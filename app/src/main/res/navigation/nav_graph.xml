@@ -23,4 +23,5 @@
     <include app:graph="@navigation/search_nav"/>
     <include app:graph="@navigation/favourites_nav"/>
     <include app:graph="@navigation/account_nav"/>
+    <include app:graph="@navigation/compare_nav"/>
 </navigation>

@@ -7,9 +7,9 @@
         android:title="@string/title_search" />
 
     <item
-        android:id="@+id/favourites_nav"
-        android:icon="@drawable/ic_saved_search"
-        android:title="@string/title_favourites" />
+        android:id="@+id/compare_nav"
+        android:icon="@drawable/ic_comparation"
+        android:title="@string/title_compare" />
 
     <item
         android:id="@+id/account_nav"

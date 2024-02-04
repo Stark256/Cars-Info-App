@@ -20,7 +20,7 @@ import javax.inject.Inject
 class MainViewModel @Inject constructor() : ViewModel() {
     sealed interface Action {
         data object GoToSearch : Action
-        data object GoToFavourites : Action
+        data object GoToComparation : Action
         data object GoToAccount : Action
     }
 
@@ -35,7 +35,7 @@ class MainViewModel @Inject constructor() : ViewModel() {
                 when (it) {
                     R.id.nav_splash -> Action.GoToSearch
                     com.cars.info.search.R.id.nav_search -> Action.GoToSearch
-                    com.cars.info.favourites.R.id.nav_favourites -> Action.GoToFavourites
+                    com.cars.info.compare.R.id.nav_compare -> Action.GoToComparation
                     com.cars.info.account.R.id.nav_account -> Action.GoToAccount
                     else -> null
                 }
