@@ -40,7 +40,7 @@ object FORD {
             "Pre-Collision Assist with Automatic Emergency Braking",
             "Rear View Camera"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Ff-150%2F2021%2Foem%2F2021_ford_f-150_crew-cab-pickup_king-ranch_fq_oem_1_1600.jpg&tbnid=rnsKu521q6OT1M&vet=12ahUKEwjw9qmT14iEAxW0z8kDHRcXB_0QMygAegQIARBX..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Ff-150%2F2022%2F&docid=yS70g-thGOXPKM&w=1600&h=1067&q=Ford%20F-150%202022&ved=2ahUKEwjw9qmT14iEAxW0z8kDHRcXB_0QMygAegQIARBX"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Ff-150%2F2021%2Foem%2F2021_ford_f-150_crew-cab-pickup_king-ranch_fq_oem_1_1600.jpg&tbnid=rnsKu521q6OT1M&vet=12ahUKEwjw9qmT14iEAxW0z8kDHRcXB_0QMygAegQIARBX..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Ff-150%2F2022%2F&docid=yS70g-thGOXPKM&w=1600&h=1067&q=Ford%20F-150%202022&ved=2ahUKEwjw9qmT14iEAxW0z8kDHRcXB_0QMygAegQIARBX"
     )
 
     private val FORD_2 = Car(
@@ -72,7 +72,7 @@ object FORD {
             "Lane-Keeping System",
             "Pre-Collision Assist with Automatic Emergency Braking"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.autotrader.com%2Fwp-content%2Fuploads%2F2021%2F09%2F2022-ford-escape-front-right.jpg&tbnid=3dcquTgJYsKspM&vet=12ahUKEwicv_eb14iEAxWB18kDHXDQDHsQMygCegQIARBW..i&imgrefurl=https%3A%2F%2Fwww.autotrader.com%2Fcomparisons%2F2022-ford-escape-choosing-the-right-trim&docid=XypRuVnSps7wjM&w=1600&h=900&q=Ford%20Escape%202022&ved=2ahUKEwicv_eb14iEAxWB18kDHXDQDHsQMygCegQIARBW"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.autotrader.com%2Fwp-content%2Fuploads%2F2021%2F09%2F2022-ford-escape-front-right.jpg&tbnid=3dcquTgJYsKspM&vet=12ahUKEwicv_eb14iEAxWB18kDHXDQDHsQMygCegQIARBW..i&imgrefurl=https%3A%2F%2Fwww.autotrader.com%2Fcomparisons%2F2022-ford-escape-choosing-the-right-trim&docid=XypRuVnSps7wjM&w=1600&h=900&q=Ford%20Escape%202022&ved=2ahUKEwicv_eb14iEAxWB18kDHXDQDHsQMygCegQIARBW"
     )
 
     private val FORD_3 = Car(
@@ -105,7 +105,7 @@ object FORD {
             "Pre-Collision Assist with Automatic Emergency Braking",
             "Rear View Camera"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fexplorer%2F2021%2Foem%2F2021_ford_explorer_4dr-suv_limited-hybrid_fq_oem_1_1280.jpg&tbnid=Ob-3I93ykDvCVM&vet=12ahUKEwjHrM6p14iEAxWY0ckDHVJFCUAQMygJegQIARBn..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fexplorer%2F2022%2Fhybrid%2F&docid=zkoV7oB5F7tNZM&w=1280&h=855&q=Ford%20Explorer%202022&ved=2ahUKEwjHrM6p14iEAxWY0ckDHVJFCUAQMygJegQIARBn"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fexplorer%2F2021%2Foem%2F2021_ford_explorer_4dr-suv_limited-hybrid_fq_oem_1_1280.jpg&tbnid=Ob-3I93ykDvCVM&vet=12ahUKEwjHrM6p14iEAxWY0ckDHVJFCUAQMygJegQIARBn..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fexplorer%2F2022%2Fhybrid%2F&docid=zkoV7oB5F7tNZM&w=1280&h=855&q=Ford%20Explorer%202022&ved=2ahUKEwjHrM6p14iEAxWY0ckDHVJFCUAQMygJegQIARBn"
     )
 
     private val FORD_4 = Car(
@@ -137,7 +137,7 @@ object FORD {
             "Lane-Keeping System",
             "Pre-Collision Assist with Automatic Emergency Braking"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod%2Fimages%2F2022-ford-mustang-stealth-edition-02-1633475393.jpg%3Fcrop%3D0.681xw%3A0.906xh%3B0.112xw%2C0%26resize%3D1200%3A*&tbnid=aPIRZG7NDoMY2M&vet=12ahUKEwirq8C114iEAxUvyMkDHW12BJgQMygAegQIARBP..i&imgrefurl=https%3A%2F%2Fwww.caranddriver.com%2Fford%2Fmustang-2022&docid=corO4ycW1LFOzM&w=1200&h=600&q=Ford%20Mustang%202022&ved=2ahUKEwirq8C114iEAxUvyMkDHW12BJgQMygAegQIARBP"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod%2Fimages%2F2022-ford-mustang-stealth-edition-02-1633475393.jpg%3Fcrop%3D0.681xw%3A0.906xh%3B0.112xw%2C0%26resize%3D1200%3A*&tbnid=aPIRZG7NDoMY2M&vet=12ahUKEwirq8C114iEAxUvyMkDHW12BJgQMygAegQIARBP..i&imgrefurl=https%3A%2F%2Fwww.caranddriver.com%2Fford%2Fmustang-2022&docid=corO4ycW1LFOzM&w=1200&h=600&q=Ford%20Mustang%202022&ved=2ahUKEwirq8C114iEAxUvyMkDHW12BJgQMygAegQIARBP"
     )
 
     private val FORD_5 = Car(
@@ -169,7 +169,7 @@ object FORD {
             "Pre-Collision Assist with Automatic Emergency Braking",
             "Rear View Camera"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fedge%2F2022%2Foem%2F2022_ford_edge_4dr-suv_sel_fq_oem_1_1280.jpg&tbnid=z-MYqP1q0BX7NM&vet=12ahUKEwiKn9fA14iEAxWRyckDHRS6CF0QMygCegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fedge%2F2022%2F&docid=M6OgdsNDZ-c2cM&w=1280&h=855&q=Ford%20Edge%202022&ved=2ahUKEwiKn9fA14iEAxWRyckDHRS6CF0QMygCegQIARBV"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fedge%2F2022%2Foem%2F2022_ford_edge_4dr-suv_sel_fq_oem_1_1280.jpg&tbnid=z-MYqP1q0BX7NM&vet=12ahUKEwiKn9fA14iEAxWRyckDHRS6CF0QMygCegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fedge%2F2022%2F&docid=M6OgdsNDZ-c2cM&w=1280&h=855&q=Ford%20Edge%202022&ved=2ahUKEwiKn9fA14iEAxWRyckDHRS6CF0QMygCegQIARBV"
     )
 
     private val FORD_6 = Car(
@@ -201,7 +201,7 @@ object FORD {
             "Pre-Collision Assist with Automatic Emergency Braking",
             "Rear View Camera"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Franger%2F2021%2Foem%2F2021_ford_ranger_crew-cab-pickup_lariat_fq_oem_1_1600.jpg&tbnid=_EcTnXmwML6n1M&vet=12ahUKEwjygo7L14iEAxXCyckDHbE7BVUQMygDegQIARBd..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Franger%2F2022%2F&docid=ic6mwbQrWovArM&w=1600&h=1067&q=Ford%20Ranger%202022&ved=2ahUKEwjygo7L14iEAxXCyckDHbE7BVUQMygDegQIARBd"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Franger%2F2021%2Foem%2F2021_ford_ranger_crew-cab-pickup_lariat_fq_oem_1_1600.jpg&tbnid=_EcTnXmwML6n1M&vet=12ahUKEwjygo7L14iEAxXCyckDHbE7BVUQMygDegQIARBd..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Franger%2F2022%2F&docid=ic6mwbQrWovArM&w=1600&h=1067&q=Ford%20Ranger%202022&ved=2ahUKEwjygo7L14iEAxXCyckDHbE7BVUQMygDegQIARBd"
     )
 
     private val FORD_7 = Car(
@@ -233,7 +233,7 @@ object FORD {
             "Pre-Collision Assist with Automatic Emergency Braking",
             "Rear View Camera"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FeJOrM%2Fs3%2F2022-ford-fusion-mondeo-successor-rendering.jpg&tbnid=kz-J86litVIH_M&vet=12ahUKEwi1vuPT14iEAxWtyMkDHSaABsAQMygEegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.motor1.com%2Fnews%2F445761%2Fford-fusion-mondeo-rendering%2F&docid=FXHMfG59GVavJM&w=1280&h=720&q=Ford%20Fusion%202022&ved=2ahUKEwi1vuPT14iEAxWtyMkDHSaABsAQMygEegQIARBY"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FeJOrM%2Fs3%2F2022-ford-fusion-mondeo-successor-rendering.jpg&tbnid=kz-J86litVIH_M&vet=12ahUKEwi1vuPT14iEAxWtyMkDHSaABsAQMygEegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.motor1.com%2Fnews%2F445761%2Fford-fusion-mondeo-rendering%2F&docid=FXHMfG59GVavJM&w=1280&h=720&q=Ford%20Fusion%202022&ved=2ahUKEwi1vuPT14iEAxWtyMkDHSaABsAQMygEegQIARBY"
     )
 
     private val FORD_8 = Car(
@@ -265,7 +265,7 @@ object FORD {
             "Terrain Management System™",
             "Pre-Collision Assist with Automatic Emergency Braking"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.motortrend.com%2Fuploads%2F2021%2F12%2F2022-Ford-Bronco-Sport-Outer-Banks-26.jpg&tbnid=FMb70DZ7xfIdnM&vet=12ahUKEwje-PLi14iEAxXbwskDHSt8DgUQMygAegQIARBW..i&imgrefurl=https%3A%2F%2Fwww.motortrend.com%2Fcars%2Fford%2Fbronco-sport%2F2022%2F&docid=vJKTgUDndJsabM&w=1920&h=1080&q=Ford%20Bronco%20Sport%202022&ved=2ahUKEwje-PLi14iEAxXbwskDHSt8DgUQMygAegQIARBW"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.motortrend.com%2Fuploads%2F2021%2F12%2F2022-Ford-Bronco-Sport-Outer-Banks-26.jpg&tbnid=FMb70DZ7xfIdnM&vet=12ahUKEwje-PLi14iEAxXbwskDHSt8DgUQMygAegQIARBW..i&imgrefurl=https%3A%2F%2Fwww.motortrend.com%2Fcars%2Fford%2Fbronco-sport%2F2022%2F&docid=vJKTgUDndJsabM&w=1920&h=1080&q=Ford%20Bronco%20Sport%202022&ved=2ahUKEwje-PLi14iEAxXbwskDHSt8DgUQMygAegQIARBW"
     )
 
     private val FORD_9 = Car(
@@ -295,7 +295,7 @@ object FORD {
             "Ford Co-Pilot360™",
             "Rear View Camera"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fecosport%2F2022%2Foem%2F2022_ford_ecosport_4dr-suv_titanium_fq_oem_1_1600.jpg&tbnid=DFSYbFBQY3ymFM&vet=12ahUKEwiSxMrw14iEAxUmxckDHVNmCu8QMygAegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fecosport%2F&docid=dKBpYa09FDOlzM&w=1600&h=1067&q=Ford%20EcoSport%202022&ved=2ahUKEwiSxMrw14iEAxUmxckDHVNmCu8QMygAegQIARBY"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fecosport%2F2022%2Foem%2F2022_ford_ecosport_4dr-suv_titanium_fq_oem_1_1600.jpg&tbnid=DFSYbFBQY3ymFM&vet=12ahUKEwiSxMrw14iEAxUmxckDHVNmCu8QMygAegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fecosport%2F&docid=dKBpYa09FDOlzM&w=1600&h=1067&q=Ford%20EcoSport%202022&ved=2ahUKEwiSxMrw14iEAxUmxckDHVNmCu8QMygAegQIARBY"
     )
 
     private val FORD_10 = Car(
@@ -327,7 +327,7 @@ object FORD {
             "Lane-Keeping System",
             "Pre-Collision Assist with Automatic Emergency Braking"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fexpedition%2F2022%2Foem%2F2022_ford_expedition_4dr-suv_limited_fq_oem_1_1600.jpg&tbnid=OlIm9RGayAHEPM&vet=12ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fexpedition%2F2022%2F&docid=TUkANcWqqBUhwM&w=1600&h=1067&q=Ford%20Expedition%202022&ved=2ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fexpedition%2F2022%2Foem%2F2022_ford_expedition_4dr-suv_limited_fq_oem_1_1600.jpg&tbnid=OlIm9RGayAHEPM&vet=12ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fexpedition%2F2022%2F&docid=TUkANcWqqBUhwM&w=1600&h=1067&q=Ford%20Expedition%202022&ved=2ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV"
     )
 
     private val FORD_11 = Car(
@@ -359,7 +359,7 @@ object FORD {
             "Lane-Keeping System",
             "Pre-Collision Assist with Automatic Emergency Braking"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fexpedition%2F2022%2Foem%2F2022_ford_expedition_4dr-suv_limited_fq_oem_1_1600.jpg&tbnid=OlIm9RGayAHEPM&vet=12ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fexpedition%2F2022%2F&docid=TUkANcWqqBUhwM&w=1600&h=1067&q=Ford%20Expedition%202022&ved=2ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fexpedition%2F2022%2Foem%2F2022_ford_expedition_4dr-suv_limited_fq_oem_1_1600.jpg&tbnid=OlIm9RGayAHEPM&vet=12ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fexpedition%2F2022%2F&docid=TUkANcWqqBUhwM&w=1600&h=1067&q=Ford%20Expedition%202022&ved=2ahUKEwjPwcn714iEAxV1G9AFHd5CBosQMygAegQIARBV"
     )
 
     private val FORD_12 = Car(
@@ -391,7 +391,7 @@ object FORD {
             "Lane-Keeping System",
             "Pre-Collision Assist with Automatic Emergency Braking"
         ),
-        image = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fmaverick%2F2022%2Foem%2F2022_ford_maverick_crew-cab-pickup_lariat_fq_oem_1_1600.jpg&tbnid=Am39UtK0Dmki4M&vet=12ahUKEwiox7qW2IiEAxVyNt4AHZIYB4oQMygGegQIARBd..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fmaverick%2F2022%2F&docid=MGGnyV6xjldGTM&w=1600&h=1067&q=Ford%20Maverick%202022&ved=2ahUKEwiox7qW2IiEAxVyNt4AHZIYB4oQMygGegQIARBd"
+        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fford%2Fmaverick%2F2022%2Foem%2F2022_ford_maverick_crew-cab-pickup_lariat_fq_oem_1_1600.jpg&tbnid=Am39UtK0Dmki4M&vet=12ahUKEwiox7qW2IiEAxVyNt4AHZIYB4oQMygGegQIARBd..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fford%2Fmaverick%2F2022%2F&docid=MGGnyV6xjldGTM&w=1600&h=1067&q=Ford%20Maverick%202022&ved=2ahUKEwiox7qW2IiEAxVyNt4AHZIYB4oQMygGegQIARBd"
     )
 
     val list = listOf(

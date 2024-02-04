@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="make_string">Make</string>
+    <string name="model_string">Model</string>
+    <string name="year_string">Year</string>
+    <string name="price_string">Price</string>
+    <string name="body_type_string">Body Type</string>
+    <string name="fuel_type_string">Fuel Type</string>
+    <string name="transmission_type_string">Transmission Type</string>
+    <string name="engine_displacement_string">Engine Displacement</string>
+    <string name="fuel_efficiency_string">Fuel Efficiency (MPG)</string>
+    <string name="top_speed_string">Top Speed</string>
+    <string name="acceleration_string">Acceleration (0&#8211;60 mph)</string>
+    <string name="horsepower_string">Horsepower</string>
+    <string name="torque_string">Torque</string>
+    <string name="wheelbase_string">Wheelbase</string>
+    <string name="curb_weight_string">Curb Weight</string>
+    <string name="cargo_capacity_string">Cargo Capacity</string>
+    <string name="seating_capacity_string">Seating Capacity</string>
+    <string name="features_string">Features</string>
+    <string name="dimensions_string">Dimensions (LxWxH)</string>
+
+    <!--          Fuel Type          -->
+    <string name="fuel_type_gasoline">Gasoline</string>
+    <string name="fuel_type_electric">Electric</string>
+    <string name="fuel_type_hybrid">Hybrid</string>
+    <string name="fuel_type_plugin">Plug-in</string>
+
+    <!--          Body Type          -->
+    <string name="body_type_sedan">Sedan</string>
+    <string name="body_type_suv">SUV</string>
+    <string name="body_type_coupe">Coupe</string>
+    <string name="body_type_sportback">SportBack</string>
+    <string name="body_type_sportcar">Sport Car</string>
+    <string name="body_type_wagon">Wagon</string>
+    <string name="body_type_truck">Truck</string>
+    <string name="body_type_minivan">Minivan</string>
+    <string name="body_type_van">Van</string>
+    <string name="body_type_hatchback">Hatchback</string>
+
+    <!--          Transmission Type          -->
+    <string name="transmission_type_automatic">Automatic</string>
+    <string name="transmission_type_manual">Manual</string>
+    <string name="transmission_type_ecvt">e-CVT</string>
+    <string name="transmission_type_singlespeed">Single-Speed</string>
+
+    <!--          FORMATS          -->
+    <!--     3.8L     -->
+    <string name="engine_displacement_format">%dL</string>
+    <!--     115 mph     -->
+    <string name="top_speed_format">%d mph</string>
+    <!--     (0-60 mph) - 8.5 seconds     -->
+    <string name="acceleration_format">%f seconds</string>
+    <!--     310 hp     -->
+    <string name="horsepower_format">%d hp</string>
+    <!--     281 lb-ft     -->
+    <string name="torque_format">%d lb-ft</string>
+    <!--     126 in     -->
+    <string name="wheelbase_format">%d in</string>
+    <!--     4,502 lbs     -->
+    <string name="curb_weight_format">%d lbs</string>
+    <!--     14.3 cubic feet     -->
+    <string name="cargo_capacity_format">%f cubic feet</string>
+    <!--     4-5 seats     -->
+    <string name="seating_capacity_format">%s seats</string>
+    <!--     18 city / 24 highway   MPG     -->
+    <string name="fuel_efficiency_format">%d city / %d highway </string>
+    <!--     219" x 73" x 72"     -->
+    <string name="dimensions_format">%d" x %d" x %d"</string>
+
+    <!--     CarListItem     -->
+    <!--   BMW 3 Series 2022   -->
+    <string name="car_list_item_name_format">%s %s %d</string>
+    <!--   Truck • 310 hp • (0-60 mph) - 8.5 seconds   -->
+    <string name="car_list_item_short_desc_format">%s • %d hp • (0&#8211;60 mph) &#8211; %f seconds</string>
+    <!--   Gasoline 3.8L   -->
+    <string name="car_list_item_engine_desc_format">%s %fL</string>
+
+</resources>

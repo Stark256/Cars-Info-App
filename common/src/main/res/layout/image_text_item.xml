@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="imageTextUI"
+            type="com.cars.info.common.models.ImageTextUI" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_text_item_image"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            imageResource="@{imageTextUI.icon}"
+            tools:src="@drawable/ic_gas_station"/>
+
+        <TextView
+            android:id="@+id/image_text_item_image_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/image_text_item_image"
+            app:layout_constraintBottom_toBottomOf="@+id/image_text_item_image"
+            app:layout_constraintStart_toEndOf="@+id/image_text_item_image"
+            android:layout_marginStart="4dp"
+            android:text="@{imageTextUI.text}"
+            android:maxLines="1"
+            android:textSize="12sp"
+            tools:text="Gasoline, 3.8L"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
