@@ -1,24 +1,20 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin)
     alias(libs.plugins.kapt)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ktlint)
-    alias(libs.plugins.navigation)
 }
 
 android {
-    namespace = "com.cars.info"
+    namespace = "com.cars.info.filter"
     compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "com.cars.info"
         minSdk = libs.versions.minSdk.get().toInt()
-        targetSdk = libs.versions.compileSdk.get().toInt()
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -46,13 +42,6 @@ android {
 dependencies {
     implementation(project(":common"))
 
-    implementation(project(":feature:search"))
-    implementation(project(":feature:compare"))
-    implementation(project(":feature:account"))
-    implementation(project(":feature:favourites"))
-    implementation(project(":feature:filter"))
-    implementation(project(":feature:details"))
-
     implementation(libs.androidx.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -60,7 +49,6 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
-    implementation(libs.kotlinx.coroutines.android)
 
     // Hilt
     kapt(libs.hilt.compiler)

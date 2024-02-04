@@ -16,7 +16,9 @@
             <option value="$PROJECT_DIR$/feature" />
             <option value="$PROJECT_DIR$/feature/account" />
             <option value="$PROJECT_DIR$/feature/compare" />
+            <option value="$PROJECT_DIR$/feature/details" />
             <option value="$PROJECT_DIR$/feature/favourites" />
+            <option value="$PROJECT_DIR$/feature/filter" />
             <option value="$PROJECT_DIR$/feature/search" />
           </set>
         </option>
