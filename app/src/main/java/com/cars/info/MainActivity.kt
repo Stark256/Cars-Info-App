@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
     private fun handleEvent(event: Event<MainViewModel.Action>) {
         when (event.pop()) {
             is MainViewModel.Action.GoToSearch -> navigateToSearchScreen()
-            is MainViewModel.Action.GoToFavourites -> navigateToFavouritesScreen()
+            is MainViewModel.Action.GoToComparation -> navigateToComparationScreen()
             is MainViewModel.Action.GoToAccount -> navigateToAccountScreen()
             null -> skip
         }
@@ -123,8 +123,8 @@ class MainActivity : AppCompatActivity() {
         binding?.bottomNavView?.selectedItemId = R.id.search_nav
     }
 
-    private fun navigateToFavouritesScreen()  {
-        binding?.bottomNavView?.selectedItemId = R.id.favourites_nav
+    private fun navigateToComparationScreen()  {
+        binding?.bottomNavView?.selectedItemId = R.id.compare_nav
     }
 
     private fun navigateToAccountScreen()  {
