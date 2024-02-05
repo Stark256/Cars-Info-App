@@ -38,15 +38,15 @@ class SearchViewModel @Inject constructor(
         )
 
     fun onCarListItemClicked(item: CarListItemUI) {
-        TODO("Not yet implemented")
+//        TODO("Not yet implemented")
     }
 
     fun onCarListItemFavouriteClicked(item: CarListItemUI) {
-        TODO("Not yet implemented")
+//        TODO("Not yet implemented")
     }
 
     fun onCarListItemCompareClicked(item: CarListItemUI) {
-        TODO("Not yet implemented")
+//        TODO("Not yet implemented")
     }
 
 }
