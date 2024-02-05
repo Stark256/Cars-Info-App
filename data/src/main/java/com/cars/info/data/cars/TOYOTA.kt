@@ -40,7 +40,7 @@ object TOYOTA {
             "Rearview Camera",
             "Dual-Zone Automatic Climate Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fcamry-hybrid%2F2021%2Foem%2F2021_toyota_camry-hybrid_sedan_xse_fq_oem_1_1600.jpg&tbnid=c3rE3eTVPYBv8M&vet=12ahUKEwjc7Lme2oiEAxWB1ckDHTP_Du0QMygAegQIARBO..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fcamry-hybrid%2F2022%2F&docid=-zc_MC8LT12lUM&w=1600&h=1067&q=Toyota%20Camry%202022&ved=2ahUKEwjc7Lme2oiEAxWB1ckDHTP_Du0QMygAegQIARBO"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/camry-hybrid/2021/oem/2021_toyota_camry-hybrid_sedan_xse_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_2 = Car(
@@ -73,7 +73,7 @@ object TOYOTA {
             "Rearview Camera",
             "Dual-Zone Automatic Climate Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Frav4%2F2022%2Fns%2F2022_toyota_rav4_actf34_ns_111721_1600.jpg&tbnid=4B0D9DJPuoNqJM&vet=12ahUKEwj9_tal2oiEAxWYN94AHfOhDCIQMygOegQIARBm..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fcar-news%2Ftoyota-rav4-whats-new-for-2022.html&docid=PGJoNO6s63FQiM&w=1600&h=1067&q=Toyota%20RAV4%202022&ved=2ahUKEwj9_tal2oiEAxWYN94AHfOhDCIQMygOegQIARBm"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/rav4/2022/ns/2022_toyota_rav4_actf34_ns_111721_1600.jpg"
     )
 
     private val TOYOTA_3 = Car(
@@ -104,7 +104,7 @@ object TOYOTA {
             "Lane Departure Warning",
             "Automatic Emergency Braking, Rearview Camera"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fcorolla%2F2022%2Foem%2F2022_toyota_corolla_sedan_le_fq_oem_1_1280.jpg&tbnid=xE7a-v16YoWASM&vet=12ahUKEwj4rYCu2oiEAxX1wckDHa4_DEEQMygDegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fcorolla%2F2022%2F&docid=kDfjVG-GwFLdtM&w=1280&h=855&q=Toyota%20Corolla%202022&ved=2ahUKEwj4rYCu2oiEAxX1wckDHa4_DEEQMygDegQIARBY"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/corolla/2022/oem/2022_toyota_corolla_sedan_le_fq_oem_1_1280.jpg"
     )
 
     private val TOYOTA_4 = Car(
@@ -137,7 +137,7 @@ object TOYOTA {
             "Rearview Camera",
             "Three-Zone Automatic Climate Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fhighlander-hybrid%2F2022%2Foem%2F2022_toyota_highlander-hybrid_4dr-suv_bronze-edition_fq_oem_1_1600.jpg&tbnid=678hIcihdOt31M&vet=12ahUKEwixoZi22oiEAxUJzskDHVHmBAQQMygCegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fhighlander-hybrid%2F2022%2F&docid=ePYyXCslJB1EkM&w=1600&h=1067&q=Toyota%20Highlander%202022&ved=2ahUKEwixoZi22oiEAxUJzskDHVHmBAQQMygCegQIARBV"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/highlander-hybrid/2022/oem/2022_toyota_highlander-hybrid_4dr-suv_bronze-edition_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_5 = Car(
@@ -170,7 +170,7 @@ object TOYOTA {
             "Rearview Camera",
             "GoPro® Mount on Windshield"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Ftacoma%2F2022%2Foem%2F2022_toyota_tacoma_crew-cab-pickup_trd-pro_fq_oem_1_1280.jpg&tbnid=-Gqjz7sIvLJdHM&vet=12ahUKEwjH-Oe92oiEAxUQ3ckDHQNuAygQMygAegQIARBR..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Ftacoma%2F2022%2F&docid=hQFthRZ-i390hM&w=1280&h=855&q=Toyota%20Tacoma%202022&ved=2ahUKEwjH-Oe92oiEAxUQ3ckDHQNuAygQMygAegQIARBR"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/tacoma/2022/oem/2022_toyota_tacoma_crew-cab-pickup_trd-pro_fq_oem_1_1280.jpg"
     )
 
     private val TOYOTA_6 = Car(
@@ -203,7 +203,7 @@ object TOYOTA {
             "Rearview Camera",
             "Dual Power Sliding Doors"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fsienna%2F2022%2Foem%2F2022_toyota_sienna_passenger-minivan_le-8-passenger_fq_oem_1_1600.jpg&tbnid=HoLVcljc5TN3HM&vet=12ahUKEwiZg9vF2oiEAxWxyMkDHYHSBsEQMygCegQIARBQ..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fsienna%2F2022%2F&docid=LJiXEEgLl29l7M&w=1600&h=1067&q=Toyota%20Sienna%202022&ved=2ahUKEwiZg9vF2oiEAxWxyMkDHYHSBsEQMygCegQIARBQ"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/sienna/2022/oem/2022_toyota_sienna_passenger-minivan_le-8-passenger_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_7 = Car(
@@ -235,7 +235,7 @@ object TOYOTA {
             "Automatic Emergency Braking",
             "Rearview Camera"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fprius%2F2019%2Foem%2F2019_toyota_prius_4dr-hatchback_l-eco_fq_oem_1_1600.jpg&tbnid=iAT_ktJ6A7enWM&vet=12ahUKEwiUuMXM2oiEAxVr2ckDHW4NCcsQMygCegQIARBa..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fprius%2F2022%2F&docid=i8TnO-NGc0z99M&w=1600&h=1067&q=Toyota%20Prius%202022&ved=2ahUKEwiUuMXM2oiEAxVr2ckDHW4NCcsQMygCegQIARBa"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/prius/2019/oem/2019_toyota_prius_4dr-hatchback_l-eco_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_8 = Car(
@@ -268,7 +268,7 @@ object TOYOTA {
             "Rearview Camera",
             "Off-Road Capability"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2F4runner%2F2022%2Foem%2F2022_toyota_4runner_4dr-suv_limited_fq_oem_1_1600.jpg&tbnid=qveolmlgakIAQM&vet=12ahUKEwjz6rzT2oiEAxWGzMkDHVjHABgQMygBegQIARBO..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2F4runner%2F2022%2F&docid=W0yuzoGth5DyvM&w=1600&h=1067&q=Toyota%204Runner%202022&ved=2ahUKEwjz6rzT2oiEAxWGzMkDHVjHABgQMygBegQIARBO"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/4runner/2022/oem/2022_toyota_4runner_4dr-suv_limited_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_9 = Car(
@@ -300,7 +300,7 @@ object TOYOTA {
             "Automatic Emergency Braking",
             "Rearview Camera"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fc-hr%2F2022%2Foem%2F2022_toyota_c-hr_4dr-suv_limited_fq_oem_1_1600.jpg&tbnid=p3ZIzyMR2M4VZM&vet=12ahUKEwivjs7a2oiEAxXyxMkDHcmGDAAQMygAegQIARBY..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fc-hr%2F&docid=g7f0nZ1CpFNPOM&w=1600&h=1067&q=Toyota%20C-HR%202022&ved=2ahUKEwivjs7a2oiEAxXyxMkDHcmGDAAQMygAegQIARBY"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/c-hr/2022/oem/2022_toyota_c-hr_4dr-suv_limited_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_10 = Car(
@@ -333,7 +333,7 @@ object TOYOTA {
             "Rearview Camera",
             "Dual-Zone Automatic Climate Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Favalon-hybrid%2F2019%2Foem%2F2019_toyota_avalon-hybrid_sedan_limited_fq_oem_1_1600.jpg&tbnid=NemjKKigfK9DzM&vet=12ahUKEwj9xKTi2oiEAxXmxckDHQ7cBxgQMygHegQIARBg..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Favalon-hybrid%2F&docid=i6WL6HWRzxa7yM&w=1600&h=1067&q=Toyota%20Avalon%20%202022&ved=2ahUKEwj9xKTi2oiEAxXmxckDHQ7cBxgQMygHegQIARBg"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/avalon-hybrid/2019/oem/2019_toyota_avalon-hybrid_sedan_limited_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_11 = Car(
@@ -366,7 +366,7 @@ object TOYOTA {
             "Rearview Camera",
             "Multi-Terrain Select"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FR0lG3%2Fs1%2F2022-toyota-land-cruiser.jpg&tbnid=bq8TU6yEMs_itM&vet=12ahUKEwjt-Ojq2oiEAxX8xMkDHWJxA4gQMygAegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.motor1.com%2Fnews%2F521995%2F2022-toyota-land-cruiser-resale-forbidden%2F&docid=jsVsQxfjCwT_YM&w=1920&h=1080&q=Toyota%20Land%20Cruiser%202022&ved=2ahUKEwjt-Ojq2oiEAxX8xMkDHWJxA4gQMygAegQIARBU"
+        imageUrl = "https://cdn.motor1.com/images/mgl/R0lG3/s1/2022-toyota-land-cruiser.jpg"
     )
 
     private val TOYOTA_12 = Car(
@@ -399,7 +399,7 @@ object TOYOTA {
             "Rearview Camera",
             "Launch Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fgr-supra%2F2022%2Foem%2F2022_toyota_gr-supra_coupe_20_fq_oem_1_1600.jpg&tbnid=rlUHdofi3UnyiM&vet=12ahUKEwjrjJr12oiEAxV4xskDHd9qDiUQMygFegQIARBg..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fgr-supra%2F2022%2F&docid=XOU69aSF7Hcv4M&w=1600&h=1067&q=Toyota%20Supra%202022&ved=2ahUKEwjrjJr12oiEAxV4xskDHd9qDiUQMygFegQIARBg"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/gr-supra/2022/oem/2022_toyota_gr-supra_coupe_20_fq_oem_1_1600.jpg"
     )
 
     private val TOYOTA_13 = Car(
@@ -429,7 +429,7 @@ object TOYOTA {
             "Lane Departure Warning",
             "Rearview Camera"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.topgear.com%2Fsites%2Fdefault%2Ffiles%2F2022%2F06%2F1-Toyota-Yaris.jpg&tbnid=9Yf3hRcYukmuUM&vet=12ahUKEwj38Pz72oiEAxWxyMkDHYHSBsEQMygBegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.topgear.com%2Fcar-reviews%2Ftoyota%2Fyaris&docid=PSB_BPNQRdD1pM&w=1574&h=885&q=Toyota%20Yaris%202022&ved=2ahUKEwj38Pz72oiEAxWxyMkDHYHSBsEQMygBegQIARBU"
+        imageUrl = "https://www.topgear.com/sites/default/files/2022/06/1-Toyota-Yaris.jpg"
     )
 
     private val TOYOTA_14 = Car(
@@ -460,7 +460,7 @@ object TOYOTA {
             "Automatic Emergency Braking",
             "Rearview Camera"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.slashgear.com%2Fimg%2Fgallery%2F2022-toyota-prius-prime-review%2Fl-intro-1645740293.jpg&tbnid=OvBY_jMsV4oHqM&vet=12ahUKEwjm--GH24iEAxU818kDHfEaAPUQMygDegQIARBd..i&imgrefurl=https%3A%2F%2Fwww.slashgear.com%2F779473%2F2022-toyota-prius-prime-review%2F&docid=2dKQWXG-z1H2ZM&w=1600&h=901&q=Toyota%20Prius%20Prime%202022&ved=2ahUKEwjm--GH24iEAxU818kDHfEaAPUQMygDegQIARBd"
+        imageUrl = "https://www.slashgear.com/img/gallery/2022-toyota-prius-prime-review/l-intro-1645740293.jpg"
     )
 
     private val TOYOTA_15 = Car(
@@ -490,7 +490,7 @@ object TOYOTA {
             "Lane Departure Warning",
             "Rearview Camera"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Ftoyota%2Fprius-c%2F2016%2Foem%2F2016_toyota_prius-c_4dr-hatchback_four_fq_oem_1_1600.jpg&tbnid=wrgPqXaovKYGHM&vet=12ahUKEwiJybWV24iEAxVjzskDHTgWDEkQMygMegQIARBw..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Ftoyota%2Fprius-c%2F2016%2Freview%2F&docid=KlBoD8EduUs7CM&w=1600&h=1067&q=Toyota%20Prius%20c%202022&ved=2ahUKEwiJybWV24iEAxVjzskDHTgWDEkQMygMegQIARBw"
+        imageUrl = "https://media.ed.edmunds-media.com/toyota/prius-c/2016/oem/2016_toyota_prius-c_4dr-hatchback_four_fq_oem_1_1600.jpg"
     )
 
     val list = listOf(
