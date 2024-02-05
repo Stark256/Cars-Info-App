@@ -39,7 +39,7 @@ object CHEVROLET {
             "Forward Collision Alert",
             "Automatic Emergency Braking"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Fsilverado-1500%2F2022%2Foem%2F2022_chevrolet_silverado-1500_crew-cab-pickup_high-country_fq_oem_1_1600.jpg&tbnid=uXcQeE8bqMxP2M&vet=12ahUKEwj2xpba1YiEAxUbxckDHS48BI0QMygBegQIARBT..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Fsilverado-1500%2F2022%2F&docid=7nD07-5hycI8PM&w=1600&h=1067&q=Chevrolet%20Silverado%201500%202022&ved=2ahUKEwj2xpba1YiEAxUbxckDHS48BI0QMygBegQIARBT"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/silverado-1500/2022/oem/2022_chevrolet_silverado-1500_crew-cab-pickup_high-country_fq_oem_1_1600.jpg"
     )
 
     private val CHEVROLET_2 = Car(
@@ -71,7 +71,7 @@ object CHEVROLET {
             "Lane Keep Assist",
             "Forward Collision Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Fequinox%2F2022%2Foem%2F2022_chevrolet_equinox_4dr-suv_premier_fq_oem_1_1600.jpg&tbnid=T4o4-fZmwh9CCM&vet=12ahUKEwi0tdDj1YiEAxUq8ckDHU4bBwAQMygAegQIARBT..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Fequinox%2F2022%2F&docid=kh6x5xTPJh0QKM&w=1600&h=1067&q=Chevrolet%20Equinox%202022&ved=2ahUKEwi0tdDj1YiEAxUq8ckDHU4bBwAQMygAegQIARBT"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/equinox/2022/oem/2022_chevrolet_equinox_4dr-suv_premier_fq_oem_1_1600.jpg"
     )
 
     private val CHEVROLET_3 = Car(
@@ -102,7 +102,7 @@ object CHEVROLET {
             "Rear Vision Camera",
             "Lane Change Alert with Side Blind Zone Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Fmalibu%2F2021%2Foem%2F2021_chevrolet_malibu_sedan_premier_fq_oem_1_1280.jpg&tbnid=ziOsyEaQ4m_HFM&vet=12ahUKEwiJq6Xr1YiEAxV2yMkDHS3MDV0QMygAegQIARBT..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Fmalibu%2F2022%2F&docid=YG6q6QQn5lsp-M&w=1280&h=855&q=Chevrolet%20Malibu%202022&ved=2ahUKEwiJq6Xr1YiEAxV2yMkDHS3MDV0QMygAegQIARBT"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/malibu/2021/oem/2021_chevrolet_malibu_sedan_premier_fq_oem_1_1280.jpg"
     )
 
     private val CHEVROLET_4 = Car(
@@ -134,7 +134,7 @@ object CHEVROLET {
             "Lane Keep Assist with Lane Departure Warning",
             "Forward Collision Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Ftraverse%2F2022%2Foem%2F2022_chevrolet_traverse_4dr-suv_high-country_fq_oem_1_1600.jpg&tbnid=rsSWqNEb4sYKsM&vet=12ahUKEwjC7a731YiEAxVT2MkDHSeUD5kQMygAegUIARCHAQ..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Ftraverse%2F2022%2F&docid=wQ_Q13pvidjjbM&w=1600&h=1067&q=Chevrolet%20Traverse%202022&ved=2ahUKEwjC7a731YiEAxVT2MkDHSeUD5kQMygAegUIARCHAQ"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/traverse/2022/oem/2022_chevrolet_traverse_4dr-suv_high-country_fq_oem_1_1600.jpg"
     )
 
     private val CHEVROLET_5 = Car(
@@ -166,7 +166,7 @@ object CHEVROLET {
             "Forward Collision Alert",
             "Automatic Emergency Braking"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Fsilverado-2500hd%2F2020%2Foem%2F2020_chevrolet_silverado-2500hd_crew-cab-pickup_custom_f_oem_3_1600.jpg&tbnid=zSepxVDT2b7sjM&vet=12ahUKEwjbtp2A1oiEAxXRxckDHbntDkYQMygKegUIARCYAQ..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Fsilverado-2500hd%2F2022%2F&docid=_8QUaFFhobEafM&w=1600&h=1067&q=Chevrolet%20Silverado%202500HD%202022&ved=2ahUKEwjbtp2A1oiEAxXRxckDHbntDkYQMygKegUIARCYAQ"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/silverado-2500hd/2020/oem/2020_chevrolet_silverado-2500hd_crew-cab-pickup_custom_f_oem_3_1600.jpg"
     )
 
     private val CHEVROLET_6 = Car(
@@ -198,7 +198,7 @@ object CHEVROLET {
             "Lane Change Alert with Side Blind Zone Alert",
             "Forward Collision Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Fblazer%2F2019%2Foem%2F2019_chevrolet_blazer_4dr-suv_premier_fq_oem_1_1280.jpg&tbnid=Lo4HeLAnJs--HM&vet=12ahUKEwiAgKeS1oiEAxVyNt4AHZIYB4oQMygEegQIARBc..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Fblazer%2F2022%2F&docid=Qr7pN7pONj0m-M&w=1280&h=855&q=Chevrolet%20Blazer%202022&ved=2ahUKEwiAgKeS1oiEAxVyNt4AHZIYB4oQMygEegQIARBc"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/blazer/2019/oem/2019_chevrolet_blazer_4dr-suv_premier_fq_oem_1_1280.jpg"
     )
 
     private val CHEVROLET_7 = Car(
@@ -230,7 +230,7 @@ object CHEVROLET {
             "Forward Collision Alert",
             "Automatic Emergency Braking"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Fcolorado%2F2021%2Foem%2F2021_chevrolet_colorado_crew-cab-pickup_lt_fq_oem_1_1600.jpg&tbnid=GFF4NTLYZp01IM&vet=12ahUKEwjntrab1oiEAxXoxskDHQpPAHUQMygBegQIARBW..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Fcolorado%2F2022%2F&docid=OOzGp60c-fKrpM&w=1600&h=1067&q=Chevrolet%20Colorado%202022&ved=2ahUKEwjntrab1oiEAxXoxskDHQpPAHUQMygBegQIARBW"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/colorado/2021/oem/2021_chevrolet_colorado_crew-cab-pickup_lt_fq_oem_1_1600.jpg"
     )
 
     private val CHEVROLET_8 = Car(
@@ -262,7 +262,7 @@ object CHEVROLET {
             "Rear Park Assist",
             "Teen Driver Technology"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Fcamaro%2F2022%2Foem%2F2022_chevrolet_camaro_coupe_2ss_fq_oem_1_1600.jpg&tbnid=mEuyLPsP1kMGKM&vet=12ahUKEwiUu8ai1oiEAxWIxckDHUR0BfwQMygBegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Fcamaro%2F2022%2F&docid=OgifUruGqAK33M&w=1600&h=1067&q=Chevrolet%20Camaro%202022&ved=2ahUKEwiUu8ai1oiEAxWIxckDHUR0BfwQMygBegQIARBV"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/camaro/2022/oem/2022_chevrolet_camaro_coupe_2ss_fq_oem_1_1600.jpg"
     )
 
     private val CHEVROLET_9 = Car(
@@ -293,7 +293,7 @@ object CHEVROLET {
             "Lane Change Alert with Side Blind Zone Alert",
             "Forward Collision Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Ftahoe%2F2022%2Foem%2F2022_chevrolet_tahoe_4dr-suv_high-country_fq_oem_1_1600.jpg&tbnid=SkeCmJanQ2ccHM&vet=12ahUKEwjHiY6r1oiEAxXy0MkDHS8XBwMQMygAegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Ftahoe%2F2022%2F&docid=tAM8Ki1-flDaBM&w=1600&h=1067&q=Chevrolet%20Tahoe%202022&ved=2ahUKEwjHiY6r1oiEAxXy0MkDHS8XBwMQMygAegQIARBV"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/tahoe/2022/oem/2022_chevrolet_tahoe_4dr-suv_high-country_fq_oem_1_1600.jpg"
     )
 
     private val CHEVROLET_10 = Car(
@@ -324,7 +324,7 @@ object CHEVROLET {
             "Lane Departure Warning",
             "Forward Collision Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod%2Fimages%2F2018-chevrolet-sonic-005-1594307553.jpg&tbnid=ulMbP9gTelwCIM&vet=12ahUKEwj4upey1oiEAxUzx8kDHftiDJkQMygCegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.autoweek.com%2Fnews%2Findustry-news%2Fa33263070%2Fthe-chevy-sonic-is-dead%2F&docid=D8809rLcDx2H-M&w=1800&h=1012&q=Chevrolet%20Sonic%202022&ved=2ahUKEwj4upey1oiEAxUzx8kDHftiDJkQMygCegQIARBV"
+        imageUrl = "https://hips.hearstapps.com/hmg-prod/images/2018-chevrolet-sonic-005-1594307553.jpg"
     )
 
     private val CHEVROLET_11 = Car(
@@ -355,7 +355,7 @@ object CHEVROLET {
             "Lane Change Alert with Side Blind Zone Alert",
             "Forward Collision Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.thedrive.com%2Fuploads%2F2022%2F04%2F20%2F2022-chevrolet-suburban-premier-review-6.jpg%3Fauto%3Dwebp%26crop%3D16%253A9%26auto%3Dwebp%26optimize%3Dhigh%26quality%3D70%26width%3D1440&tbnid=HEQG8_K8uhJTGM&vet=12ahUKEwif1MfS1oiEAxVX8MkDHbfFBTUQMygIegQIARBl..i&imgrefurl=https%3A%2F%2Fwww.thedrive.com%2Fnew-cars%2F2022-chevy-suburban-review-a-simple-beast-with-a-simple-mission&docid=Q86MWqtRNZlQXM&w=1440&h=810&q=Chevrolet%20Suburban%202022&ved=2ahUKEwif1MfS1oiEAxVX8MkDHbfFBTUQMygIegQIARBl"
+        imageUrl = "https://www.thedrive.com/uploads/2022/04/20/2022-chevrolet-suburban-premier-review-6.jpg?auto=webp&crop=16%3A9&auto=webp&optimize=high&quality=70&width=1440"
     )
 
     private val CHEVROLET_12 = Car(
@@ -386,7 +386,7 @@ object CHEVROLET {
             "Lane Departure Warning",
             "Forward Collision Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fchevrolet%2Ftrax%2F2021%2Foem%2F2021_chevrolet_trax_4dr-suv_lt_fq_oem_1_1280.jpg&tbnid=6r73DPE0nANxhM&vet=12ahUKEwiuuPXt1oiEAxXpzskDHfRuAMwQMygBegQIARBV..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fchevrolet%2Ftrax%2F2022%2F&docid=xrKvpYnV_fEcMM&w=1280&h=855&q=Chevrolet%20Trax%202022&ved=2ahUKEwiuuPXt1oiEAxXpzskDHfRuAMwQMygBegQIARBV"
+        imageUrl = "https://media.ed.edmunds-media.com/chevrolet/trax/2021/oem/2021_chevrolet_trax_4dr-suv_lt_fq_oem_1_1280.jpg"
     )
 
     private val CHEVROLET_13 = Car(
@@ -417,7 +417,7 @@ object CHEVROLET {
             "Forward Collision Alert",
             "Lane Departure Warning"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.autotrader.com%2Fwp-content%2Fuploads%2F2021%2F02%2F2022-chevrolet-bolt-ev-driving-front-3qtr.jpg%3Fquality%3D75&tbnid=QYFoOMjLSEqoOM&vet=12ahUKEwjcqf_21oiEAxWN0ckDHZRxDHcQMygFegQIARBe..i&imgrefurl=https%3A%2F%2Fwww.autotrader.com%2Fcomparisons%2F2022-chevrolet-bolt-ev-choosing-the-right-trim&docid=sLd2w2n0Ho2wDM&w=1600&h=1200&q=Chevrolet%20Bolt%20EV%202022&ved=2ahUKEwjcqf_21oiEAxWN0ckDHZRxDHcQMygFegQIARBe"
+        imageUrl = "https://www.autotrader.com/wp-content/uploads/2021/02/2022-chevrolet-bolt-ev-driving-front-3qtr.jpg?quality=75"
     )
 
     val list = listOf(

@@ -37,7 +37,7 @@ object NISSAN {
             "Intelligent Forward Collision Warning",
             "RearView Monitor"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Faltima%2F2020%2Foem%2F2020_nissan_altima_sedan_25-platinum_fq_oem_1_1280.jpg&tbnid=k6vDEcj0ZqD_7M&vet=12ahUKEwje9eKs2IiEAxXdw8kDHYsWBPAQMygAegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Faltima%2F2022%2F&docid=jSeG1ubdQM6s4M&w=1280&h=855&q=Nissan%20Altima%202022&ved=2ahUKEwje9eKs2IiEAxXdw8kDHYsWBPAQMygAegQIARBU"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/altima/2020/oem/2020_nissan_altima_sedan_25-platinum_fq_oem_1_1280.jpg"
     )
 
     private val NISSAN_2 = Car(
@@ -67,7 +67,7 @@ object NISSAN {
             "Safety Shield® 360",
             "Intelligent Lane Intervention"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.cars.com%2Fcldstatic%2Fwp-content%2Fuploads%2Fnissan-rogue-platinum-2022-01-exterior-front-angle-grey-suv-scaled.jpg&tbnid=NcqLyfweczcwKM&vet=12ahUKEwj3-8y02IiEAxXqzMkDHe-RAZ0QMygFegQIARBf..i&imgrefurl=https%3A%2F%2Fwww.cars.com%2Farticles%2Fnissan-changes-the-heart-of-the-rogue-for-2022-443551%2F&docid=r9nIdifQ0AORfM&w=1200&h=800&q=Nissan%20Rogue%202022&ved=2ahUKEwj3-8y02IiEAxXqzMkDHe-RAZ0QMygFegQIARBf"
+        imageUrl = "https://images.cars.com/cldstatic/wp-content/uploads/nissan-rogue-platinum-2022-01-exterior-front-angle-grey-suv-scaled.jpg"
     )
 
     private val NISSAN_3 = Car(
@@ -97,7 +97,7 @@ object NISSAN {
             "Intelligent Cruise Control",
             "Blind Spot Warning"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.cnet.com%2Fa%2Fimg%2Fresize%2F4ff3384d94ee745cda03c7b31f91ebf1366527f8%2Fhub%2F2022%2F02%2F21%2F31147bd8-84fb-4160-b365-89d65f22d65a%2F2022-nissan-sentra-sr-10.jpg%3Fauto%3Dwebp%26width%3D1200&tbnid=rh42Aq0h11TjaM&vet=12ahUKEwjphrnE2IiEAxU9HdAFHY6nD2wQMygCegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.cnet.com%2Froadshow%2Freviews%2F2022-nissan-sentra-review%2F&docid=naEGoWwO-GAObM&w=1200&h=900&q=Nissan%20Sentra%202022&ved=2ahUKEwjphrnE2IiEAxU9HdAFHY6nD2wQMygCegQIARBZ"
+        imageUrl = "https://www.cnet.com/a/img/resize/4ff3384d94ee745cda03c7b31f91ebf1366527f8/hub/2022/02/21/31147bd8-84fb-4160-b365-89d65f22d65a/2022-nissan-sentra-sr-10.jpg?auto=webp&width=1200"
     )
 
     private val NISSAN_4 = Car(
@@ -127,7 +127,7 @@ object NISSAN {
             "Intelligent Cruise Control",
             "Rear Cross Traffic Alert"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Fmurano%2F2020%2Foem%2F2020_nissan_murano_4dr-suv_platinum_fq_oem_1_1280.jpg&tbnid=qtX9fKPII4nW6M&vet=12ahUKEwi09qHR2IiEAxU_x8kDHYOgCiwQMygKegQIARBo..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Fmurano%2F2022%2F&docid=FAP5PK0fzPmN2M&w=1280&h=855&q=Nissan%20Murano%202022&ved=2ahUKEwi09qHR2IiEAxU_x8kDHYOgCiwQMygKegQIARBo"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/murano/2020/oem/2020_nissan_murano_4dr-suv_platinum_fq_oem_1_1280.jpg"
     )
 
     private val NISSAN_5 = Car(
@@ -157,7 +157,7 @@ object NISSAN {
             "Intelligent Forward Collision Warning",
             "Rear Automatic Braking"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Fmaxima%2F2022%2Foem%2F2022_nissan_maxima_sedan_35-sr_fq_oem_1_1280.jpg&tbnid=50OFc_4w4sd_xM&vet=12ahUKEwjHj6Db2IiEAxUYHNAFHThLAJEQMygBegQIARBb..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Fmaxima%2F2022%2F&docid=4ia7D5bI_q4wTM&w=1280&h=855&q=Nissan%20Maxima%202022&ved=2ahUKEwjHj6Db2IiEAxUYHNAFHThLAJEQMygBegQIARBb"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/maxima/2022/oem/2022_nissan_maxima_sedan_35-sr_fq_oem_1_1280.jpg"
     )
 
     private val NISSAN_6 = Car(
@@ -187,7 +187,7 @@ object NISSAN {
             "Intelligent Around View® Monitor",
             "Dual Zone Automatic Temperature Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Ftitan%2F2021%2Foem%2F2021_nissan_titan_crew-cab-pickup_pro-4x_fq_oem_1_1280.jpg&tbnid=zk1H6X8I3nAp3M&vet=12ahUKEwjNtrXi2IiEAxXA1ckDHQdFD2wQMygBegQIARBT..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Ftitan%2F2022%2F&docid=Lb9_ubgKJMrPxM&w=1280&h=855&q=Nissan%20Titan%202022&ved=2ahUKEwjNtrXi2IiEAxXA1ckDHQdFD2wQMygBegQIARBT"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/titan/2021/oem/2021_nissan_titan_crew-cab-pickup_pro-4x_fq_oem_1_1280.jpg"
     )
 
     private val NISSAN_7 = Car(
@@ -217,7 +217,7 @@ object NISSAN {
             "Intelligent Driver Alertness",
             "Automatic Emergency Braking with Pedestrian Detection"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Fkicks%2F2022%2Foem%2F2022_nissan_kicks_4dr-hatchback_sr_fq_oem_1_1600.jpg&tbnid=JseTUjrIFwSZWM&vet=12ahUKEwjf7Nzp2IiEAxV1G9AFHd5CBosQMygAegQIARBT..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Fkicks%2F2022%2F&docid=03YB_viAxe_u5M&w=1600&h=1067&q=Nissan%20Kicks%202022&ved=2ahUKEwjf7Nzp2IiEAxV1G9AFHd5CBosQMygAegQIARBT"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/kicks/2022/oem/2022_nissan_kicks_4dr-hatchback_sr_fq_oem_1_1600.jpg"
     )
 
     private val NISSAN_8 = Car(
@@ -247,7 +247,7 @@ object NISSAN {
             "Intelligent Cruise Control",
             "Intelligent 4x4"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Fpathfinder%2F2022%2Ffe%2F2022_nissan_pathfinder_f34_fe_527212_1600.jpg&tbnid=uUAp7CJRueEKHM&vet=12ahUKEwjiw8Pz2IiEAxWN0ckDHZRxDHcQMygFegQIARBh..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fcar-news%2Fthe-2022-nissan-pathfinder-is-new-and-improved-but-possibly-not-improved-enough.html&docid=N7rCe6vSsb7urM&w=1600&h=1067&q=Nissan%20Pathfinder%202022&ved=2ahUKEwjiw8Pz2IiEAxWN0ckDHZRxDHcQMygFegQIARBh"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/pathfinder/2022/fe/2022_nissan_pathfinder_f34_fe_527212_1600.jpg"
     )
 
     private val NISSAN_9 = Car(
@@ -277,7 +277,7 @@ object NISSAN {
             "Intelligent Rear View Mirror",
             "Tri-Zone Entertainment System"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Farmada%2F2022%2Foem%2F2022_nissan_armada_4dr-suv_platinum_fq_oem_1_1600.jpg&tbnid=CwjQ0WrIXSLtMM&vet=12ahUKEwjvoOr-2IiEAxUVxskDHVdYDQwQMygKegQIARBt..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Farmada%2F2022%2F&docid=MpTOoK2-e20r5M&w=1600&h=1067&q=Nissan%20Armada%202022&ved=2ahUKEwjvoOr-2IiEAxUVxskDHVdYDQwQMygKegQIARBt"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/armada/2022/oem/2022_nissan_armada_4dr-suv_platinum_fq_oem_1_1600.jpg"
     )
 
     private val NISSAN_10 = Car(
@@ -307,7 +307,7 @@ object NISSAN {
             "Active Noise Cancellation",
             "RearView Monitor"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F7%2F75%2FNissan_FAIRLADY_Z_%2528Z34%2529_Version_ST%252C_2022%252C_left-front.jpg%2F1200px-Nissan_FAIRLADY_Z_%2528Z34%2529_Version_ST%252C_2022%252C_left-front.jpg&tbnid=ckwQEZKhm55qYM&vet=12ahUKEwjPsMWL2YiEAxVH5skDHWTaD0YQMygRegQIARB7..i&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNissan_Z_(RZ34)&docid=ROJRkBzwhKuMKM&w=1200&h=720&q=Nissan%20370Z%202022&ved=2ahUKEwjPsMWL2YiEAxVH5skDHWTaD0YQMygRegQIARB7"
+        imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Nissan_FAIRLADY_Z_%28Z34%29_Version_ST%2C_2022%2C_left-front.jpg/1200px-Nissan_FAIRLADY_Z_%28Z34%29_Version_ST%2C_2022%2C_left-front.jpg"
     )
 
     private val NISSAN_11 = Car(
@@ -337,7 +337,7 @@ object NISSAN {
             "Active Noise Cancellation",
             "RearView Monitor"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FrMjOr%2Fs1%2F2022-nissan-gt-r-nismo-special-edition.jpg&tbnid=RQDrIVkUIwXVMM&vet=12ahUKEwiXr_qk2YiEAxWQN94AHR_tAA4QMygLegQIARBh..i&imgrefurl=https%3A%2F%2Fwww.motor1.com%2Fnews%2F532679%2F2022-nissan-gtr-livestream%2F&docid=Ocr50xWP4CU0sM&w=1920&h=1080&q=Nissan%20GT-R%202022&ved=2ahUKEwiXr_qk2YiEAxWQN94AHR_tAA4QMygLegQIARBh"
+        imageUrl = "https://cdn.motor1.com/images/mgl/rMjOr/s1/2022-nissan-gt-r-nismo-special-edition.jpg"
     )
 
     private val NISSAN_12 = Car(
@@ -367,7 +367,7 @@ object NISSAN {
             "Bed Rail Caps",
             "Utili-track® Channel System"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Ffrontier%2F2022%2Foem%2F2022_nissan_frontier_extended-cab-pickup_sv_fq_oem_1_1600.jpg&tbnid=GMDKELVOVD4yoM&vet=12ahUKEwjXnMDB2YiEAxUvyMkDHW12BJgQMygFegQIARBe..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Ffrontier%2F2022%2Fking-cab%2F&docid=bXbDue9GWKgYIM&w=1600&h=1067&q=Nissan%20Frontier%202022&ved=2ahUKEwjXnMDB2YiEAxUvyMkDHW12BJgQMygFegQIARBe"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/frontier/2022/oem/2022_nissan_frontier_extended-cab-pickup_sv_fq_oem_1_1600.jpg"
     )
 
     private val NISSAN_13 = Car(
@@ -397,7 +397,7 @@ object NISSAN {
             "Lane Departure Warning",
             "Automatic Emergency Braking with Pedestrian Detection"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fnissan%2Fversa%2F2020%2Foem%2F2020_nissan_versa_sedan_sr_fq_oem_1_1280.jpg&tbnid=G4TWemRiXqH2PM&vet=12ahUKEwie6K3J2YiEAxUNyckDHYspBXoQMygPegQIARBy..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fnissan%2Fversa%2F2022%2F&docid=v32cUcAzMpvQhM&w=1280&h=855&q=Nissan%20Versa%202022&ved=2ahUKEwie6K3J2YiEAxUNyckDHYspBXoQMygPegQIARBy"
+        imageUrl = "https://media.ed.edmunds-media.com/nissan/versa/2020/oem/2020_nissan_versa_sedan_sr_fq_oem_1_1280.jpg"
     )
 
     private val NISSAN_14 = Car(
@@ -427,7 +427,7 @@ object NISSAN {
             "e-Pedal",
             "ProPILOT Assist"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fev-database.org%2Fimg%2Fauto%2FNissan_Leaf_2022%2FNissan_Leaf_2022-01%402x.jpg&tbnid=UOI_s6IT3bYR9M&vet=12ahUKEwiW8r7e2YiEAxXqzMkDHe-RAZ0QMygMegQIARBq..i&imgrefurl=https%3A%2F%2Fev-database.org%2Fcar%2F1656%2FNissan-Leaf&docid=P88qz8CLEH7E9M&w=1536&h=864&q=Nissan%20LEAF%202022&ved=2ahUKEwiW8r7e2YiEAxXqzMkDHe-RAZ0QMygMegQIARBq"
+        imageUrl = "https://ev-database.org/img/auto/Nissan_Leaf_2022/Nissan_Leaf_2022-01@2x.jpg"
     )
 
     private val NISSAN_15 = Car(
@@ -457,7 +457,7 @@ object NISSAN {
             "Sliding Side Door",
             "Cargo Tie-Down Hooks"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn-fastly.thetruthaboutcars.com%2Fmedia%2F2022%2F06%2F30%2F8669752%2Fcapsule-review-2014-nissan-nv200-sv-cargo-van.jpg%3Fsize%3D1200x628&tbnid=h-MbQwabJzK8CM&vet=12ahUKEwiJkbf62YiEAxXqxskDHWItBXgQMyhHegUIARD5AQ..i&imgrefurl=https%3A%2F%2Fwww.thetruthaboutcars.com%2F2014%2F08%2Fcapsule-review-2014-nissan-nv200-sv-cargo-van%2F&docid=T8s99TA_97e0tM&w=1200&h=628&q=Nissan%20NV200%20Compact%20Cargo%202022&ved=2ahUKEwiJkbf62YiEAxXqxskDHWItBXgQMyhHegUIARD5AQ"
+        imageUrl = "https://cdn-fastly.thetruthaboutcars.com/media/2022/06/30/8669752/capsule-review-2014-nissan-nv200-sv-cargo-van.jpg?size=1200x628"
     )
 
     val list = listOf(

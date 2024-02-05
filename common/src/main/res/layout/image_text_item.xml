@@ -35,7 +35,9 @@
             android:text="@{imageTextUI.text}"
             android:maxLines="1"
             android:textSize="12sp"
-            tools:text="Gasoline, 3.8L"/>
+            tools:text="Gasoline, 3.8L"
+            android:textColor="@color/black"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -13,7 +13,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
 
         <ImageView
             android:id="@+id/car_list_item_image"
@@ -38,6 +39,7 @@
             android:textSize="16sp"
             android:maxLines="2"
             android:text="@{carListItem.name}"
+            android:textColor="@color/black"
             tools:text="BMW 3 Series 2022" />
 
         <TextView
@@ -51,6 +53,7 @@
             android:maxLines="1"
             android:ellipsize="end"
             android:text="@{carListItem.shortDescription}"
+            android:textColor="@color/black"
             tools:text="Truck • 310 hp • (0-60 mph) - 8.5s" />
 
         <LinearLayout
@@ -96,6 +99,7 @@
             android:layout_marginBottom="16dp"
             android:textStyle="bold"
             android:text="@{carListItem.price}"
+            android:textColor="@color/black"
             tools:text="27,500 $"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

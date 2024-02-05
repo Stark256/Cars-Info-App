@@ -89,11 +89,18 @@ fun Car.convertToListItemUi(context: Context): CarListItemUI {
             else -> R.drawable.ic_transmission_auto
         }
 
+    fun getPrice(context: Context): String =
+        this.price?.let {
+            NumberFormat.getCurrencyInstance(Locale.US).format(this.price)
+        } ?: context.getString(R.string.empty_string)
+
     return CarListItemUI.Builder()
+        .id(this.id)
+        .make(this.make)
         .name(getName())
         .imageUrl(this.imageUrl)
         .shortDescription(getShortDescription())
-        .price(NumberFormat.getInstance(Locale.US).format(this.price))
+        .price(getPrice(context))
         .engineDesc(
             ImageTextUI(
                 text = getEngineDescText(),

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="empty_string">N/A</string>
 
     <string name="make_string">Make</string>
     <string name="model_string">Model</string>
@@ -51,7 +52,7 @@
     <!--     115 mph     -->
     <string name="top_speed_format">%d mph</string>
     <!--     (0-60 mph) - 8.5 seconds     -->
-    <string name="acceleration_format">%f seconds</string>
+    <string name="acceleration_format">%.1f seconds</string>
     <!--     310 hp     -->
     <string name="horsepower_format">%d hp</string>
     <!--     281 lb-ft     -->
@@ -61,7 +62,7 @@
     <!--     4,502 lbs     -->
     <string name="curb_weight_format">%d lbs</string>
     <!--     14.3 cubic feet     -->
-    <string name="cargo_capacity_format">%f cubic feet</string>
+    <string name="cargo_capacity_format">%.1f cubic feet</string>
     <!--     4-5 seats     -->
     <string name="seating_capacity_format">%s seats</string>
     <!--     18 city / 24 highway   MPG     -->
@@ -73,8 +74,8 @@
     <!--   BMW 3 Series 2022   -->
     <string name="car_list_item_name_format">%s %s %d</string>
     <!--   Truck • 310 hp • (0-60 mph) - 8.5 seconds   -->
-    <string name="car_list_item_short_desc_format">%s • %d hp • (0&#8211;60 mph) &#8211; %f seconds</string>
+    <string name="car_list_item_short_desc_format">%s • %d hp • (0&#8211;60 mph) &#8211; %.1f seconds</string>
     <!--   Gasoline 3.8L   -->
-    <string name="car_list_item_engine_desc_format">%s %fL</string>
+    <string name="car_list_item_engine_desc_format">%s %.1fL</string>
 
 </resources>
