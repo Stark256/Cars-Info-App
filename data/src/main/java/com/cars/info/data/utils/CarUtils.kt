@@ -91,7 +91,7 @@ fun Car.convertToListItemUi(context: Context): CarListItemUI {
 
     fun getPrice(context: Context): String =
         this.price?.let {
-            NumberFormat.getInstance(Locale.US).format(this.price)
+            NumberFormat.getCurrencyInstance(Locale.US).format(this.price)
         } ?: context.getString(R.string.empty_string)
 
     return CarListItemUI.Builder()
