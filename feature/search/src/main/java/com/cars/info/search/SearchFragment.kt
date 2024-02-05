@@ -2,7 +2,6 @@ package com.cars.info.search
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import androidx.fragment.app.viewModels
@@ -26,28 +25,26 @@ class SearchFragment : BaseFragment<FragmentSearchBinding>() {
     private val adapter: CarListAdapter = CarListAdapter(
         carListItemClickListener = object : CarListItemClickListener {
             override fun onItemClicked(item: CarListItemUI) {
-                TODO("Not yet implemented")
+                viewModel.onCarListItemClicked(item)
             }
         },
         carListItemCompareClickListener = object : CarListItemCompareClickListener {
             override fun onItemClicked(item: CarListItemUI) {
-                TODO("Not yet implemented")
+                viewModel.onCarListItemCompareClicked(item)
             }
         },
         carListItemFavouritesClickListener = object : CarListItemFavouritesClickListener {
             override fun onItemClicked(item: CarListItemUI) {
-                TODO("Not yet implemented")
+                viewModel.onCarListItemFavouriteClicked(item)
             }
         }
     )
-
 
     override fun createBinding(inflater: LayoutInflater): FragmentSearchBinding =
         FragmentSearchBinding.inflate(inflater).apply {
             lifecycleOwner = viewLifecycleOwner
             viewModel = this.viewModel
         }
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -59,11 +56,7 @@ class SearchFragment : BaseFragment<FragmentSearchBinding>() {
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.CREATED) {
                 viewModel.cars
-                    .onEach {
-                        Log.d("MY_TEST_TAG", "adapter list size = ${it.size}")
-                        Log.d("MY_TEST_TAG", "adapter list first item size = ${it.takeIf { it.isNotEmpty() }?.first() ?: "null"}")
-                        adapter.submitList(it)
-                    }
+                    .onEach { adapter.submitList(it) }
                     .collect()
             }
         }

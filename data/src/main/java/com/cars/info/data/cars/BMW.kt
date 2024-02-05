@@ -42,7 +42,7 @@ object BMW {
             "Keyless Entry",
             "Bluetooth Connectivity"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2F3-series%2F2021%2Foem%2F2021_bmw_3-series_sedan_330e_fq_oem_1_1600.jpg&tbnid=88WhGSK1oezQhM&vet=12ahUKEwituc7X0YiEAxVax8kDHdCDBPAQMygAegQIARBT..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2F3-series%2F2022%2F&docid=F6tzSb9TpFR-5M&w=1600&h=1067&q=BMW%203%20Series%202022&ved=2ahUKEwituc7X0YiEAxVax8kDHdCDBPAQMygAegQIARBT"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/3-series/2021/oem/2021_bmw_3-series_sedan_330e_fq_oem_1_1600.jpg"
     )
 
     private val BMW_2 = Car(
@@ -77,7 +77,7 @@ object BMW {
             "Navigation System",
             "Leather Seats"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2F5-series%2F2021%2Foem%2F2021_bmw_5-series_sedan_530e_fq_oem_1_1600.jpg&tbnid=iqqz3LDjHUaV0M&vet=12ahUKEwiq7PHe0YiEAxWB1ckDHTP_Du0QMygDegQIARBf..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2F5-series%2F2022%2F&docid=moDnFdVd4jZL_M&w=1600&h=1067&q=BMW%205%20Series%202022&ved=2ahUKEwiq7PHe0YiEAxWB1ckDHTP_Du0QMygDegQIARBf"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/5-series/2021/oem/2021_bmw_5-series_sedan_530e_fq_oem_1_1600.jpg"
     )
 
     private val BMW_3 = Car(
@@ -111,7 +111,7 @@ object BMW {
             "Lane Departure Warning",
             "Blind Spot Detection"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2Fx3%2F2022%2Fns%2F2022_bmw_x3_actf34_ns_12622_1600.jpg&tbnid=qkK9L3Gg2MW_CM&vet=12ahUKEwiiwoOk0oiEAxVsK9AFHU9LCiYQMygCegQIARBb..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fcar-news%2Fwhats-new-for-the-2022-bmw-x3.html&docid=wDp5m3gJQkaC7M&w=1600&h=1067&q=BMW%20X3%202022&ved=2ahUKEwiiwoOk0oiEAxVsK9AFHU9LCiYQMygCegQIARBb"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/x3/2022/ns/2022_bmw_x3_actf34_ns_12622_1600.jpg"
     )
 
     private val BMW_4 = Car(
@@ -146,7 +146,7 @@ object BMW {
             "Lane Keeping Assist",
             "3rd-Row Seating"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2Fx5%2F2021%2Foem%2F2021_bmw_x5_4dr-suv_m50i_fq_oem_1_1280.jpg&tbnid=1lUBlIuEiqPX5M&vet=12ahUKEwi2_5zC0oiEAxXi8MkDHXpLA_AQMygFegQIARBd..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2Fx5%2F2022%2F&docid=zDaMWYpJuGpzTM&w=1280&h=855&q=BMW%20X5%202022%201600x1067&ved=2ahUKEwi2_5zC0oiEAxXi8MkDHXpLA_AQMygFegQIARBd"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/x5/2021/oem/2021_bmw_x5_4dr-suv_m50i_fq_oem_1_1280.jpg"
     )
 
     private val BMW_5 = Car(
@@ -180,7 +180,7 @@ object BMW {
             "Night Vision with Pedestrian Detection",
             "Soft-Close Automatic Doors"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2F7-series%2F2021%2Foem%2F2021_bmw_7-series_sedan_750i-xdrive_fq_oem_1_1600.jpg&tbnid=JWLhbHEZnB4oCM&vet=12ahUKEwj26pPb0oiEAxUR2ckDHVYhBegQMygGegQIARBf..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2F7-series%2F2022%2Fm760i-xdrive%2F&docid=98dO8QFfEN-ptM&w=1600&h=1067&q=BMW%207%20Series%202022&ved=2ahUKEwj26pPb0oiEAxUR2ckDHVYhBegQMygGegQIARBf"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/7-series/2021/oem/2021_bmw_7-series_sedan_750i-xdrive_fq_oem_1_1600.jpg"
     )
 
     private val BMW_6 = Car(
@@ -215,7 +215,7 @@ object BMW {
             "Connected Package Professional",
             "Active Blind Spot Detection"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2F4-series-gran-coupe%2F2022%2Foem%2F2022_bmw_4-series-gran-coupe_sedan_430i_fq_oem_1_1600.jpg&tbnid=z5m_H9Dx6mVLEM&vet=12ahUKEwio7d_u0oiEAxWM6skDHVLHCFAQMygHegQIARBg..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2F4-series-gran-coupe%2F2022%2F&docid=NBQpBbVGiqIj9M&w=1600&h=1067&q=BMW%204%20Series%202022&ved=2ahUKEwio7d_u0oiEAxWM6skDHVLHCFAQMygHegQIARBg"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/4-series-gran-coupe/2022/oem/2022_bmw_4-series-gran-coupe_sedan_430i_fq_oem_1_1600.jpg"
     )
 
     private val BMW_7 = Car(
@@ -250,7 +250,7 @@ object BMW {
             "ConnectedDrive Services",
             "Heated Front Seats"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2Fx1%2F2020%2Foem%2F2020_bmw_x1_4dr-suv_xdrive28i_fq_oem_1_1600.jpg&tbnid=8FjY9Re7t4SJkM&vet=12ahUKEwiC79__0oiEAxXy0MkDHS8XBwMQMygBegQIARBR..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2Fx1%2F2022%2F&docid=XI4lVKx74-M3QM&w=1600&h=1067&q=BMW%20X1%202022&ved=2ahUKEwiC79__0oiEAxXy0MkDHS8XBwMQMygBegQIARBR"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/x1/2020/oem/2020_bmw_x1_4dr-suv_xdrive28i_fq_oem_1_1600.jpg"
     )
 
     private val BMW_8 = Car(
@@ -284,7 +284,7 @@ object BMW {
             "Comfort Access Keyless Entry",
             "Automatic 4-Zone Climate Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fhips.hearstapps.com%2Fhmg-prod%2Fimages%2F2021-bmw-alpina-xb7-mmp-1-1629487681.jpg%3Fcrop%3D0.865xw%3A0.649xh%3B0.0753xw%2C0.156xh%26resize%3D1200%3A*&tbnid=huHZzPAGrVkDcM&vet=12ahUKEwia4fim04iEAxXIzMkDHZTHBKUQMygBegQIARBa..i&imgrefurl=https%3A%2F%2Fwww.caranddriver.com%2Fbmw%2Fx7-2022&docid=8gmY0sdfPQaRgM&w=1200&h=600&q=BMW%20X7%202022%201600x1067&ved=2ahUKEwia4fim04iEAxXIzMkDHZTHBKUQMygBegQIARBa"
+        imageUrl = "https://hips.hearstapps.com/hmg-prod/images/2021-bmw-alpina-xb7-mmp-1-1629487681.jpg?crop=0.865xw:0.649xh;0.0753xw,0.156xh&resize=1200:*"
     )
 
     private val BMW_9 = Car(
@@ -318,7 +318,7 @@ object BMW {
             "Automatic Emergency Braking",
             "Tire Pressure Monitor"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2F2-series%2F2022%2Foem%2F2022_bmw_2-series_coupe_230i_fq_oem_1_1600.jpg&tbnid=b8Qaso0O9ooP8M&vet=12ahUKEwjl26y304iEAxVzxckDHcMXBlsQMygAegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2F2-series%2F2022%2F&docid=kZHAGNp6F0OdsM&w=1600&h=1067&q=BMW%202%20Series%202022&ved=2ahUKEwjl26y304iEAxVzxckDHcMXBlsQMygAegQIARBU"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/2-series/2022/oem/2022_bmw_2-series_coupe_230i_fq_oem_1_1600.jpg"
     )
 
     private val BMW_10 = Car(
@@ -352,7 +352,7 @@ object BMW {
             "Active Driving Assistant",
             "Wireless Charging"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FQjKrB%2Fs3%2Fbmw-ix3-2022.webp&tbnid=LkAOKhqp3q7lbM&vet=12ahUKEwjZlozF04iEAxU1Nt4AHfdUDXQQMygCegQIARBX..i&imgrefurl=https%3A%2F%2Fwww.motor1.com%2Fnews%2F525853%2F2022-bmw-ix3-facelift-specs-photos%2F&docid=STBqRymUXKFXQM&w=1280&h=720&q=BMW%20iX3%202022&ved=2ahUKEwjZlozF04iEAxU1Nt4AHfdUDXQQMygCegQIARBX"
+        imageUrl = "https://cdn.motor1.com/images/mgl/QjKrB/s3/bmw-ix3-2022.webp"
     )
 
     private val BMW_11 = Car(
@@ -386,7 +386,7 @@ object BMW {
             "Gesture Control",
             "Active Cruise Control with Stop & Go"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2Fi4%2F2022%2Foem%2F2022_bmw_i4_sedan_m50_fq_oem_1_1600.jpg&tbnid=BNIcfeP7td5PiM&vet=12ahUKEwjT0tTb04iEAxUcyMkDHbDMANwQMygEegQIARBc..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2Fi4%2F2022%2Fm50%2F&docid=4uMzmj-iAdHuCM&w=1600&h=1067&q=BMW%20i4%202022&ved=2ahUKEwjT0tTb04iEAxUcyMkDHbDMANwQMygEegQIARBc"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/i4/2022/oem/2022_bmw_i4_sedan_m50_fq_oem_1_1600.jpg"
     )
 
     private val BMW_12 = Car(
@@ -421,7 +421,7 @@ object BMW {
             "Harman Kardon Surround Sound System",
             "Lane Departure Warning"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2Fm3%2F2022%2Foem%2F2022_bmw_m3_sedan_competition_fq_oem_1_1280.jpg&tbnid=-Nh8CfVXbf4deM&vet=12ahUKEwjhn83o04iEAxVA0ckDHfmuDWkQMygAegQIARBR..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2Fm3%2F2022%2F&docid=1uBKCKA8F0sqnM&w=1280&h=855&q=BMW%20M3%202022&ved=2ahUKEwjhn83o04iEAxVA0ckDHfmuDWkQMygAegQIARBR"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/m3/2022/oem/2022_bmw_m3_sedan_competition_fq_oem_1_1280.jpg"
     )
 
     private val BMW_13 = Car(
@@ -456,7 +456,7 @@ object BMW {
             "Adaptive Cruise Control",
             "Gesture Control"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2Fm5%2F2021%2Foem%2F2021_bmw_m5_sedan_base_fq_oem_3_1600.jpg&tbnid=2YqFS5bWHdjWzM&vet=12ahUKEwjYwpCG1IiEAxVi8ckDHdPIDnkQMygDegQIARBb..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2Fm5%2F2022%2F&docid=FIZ3optSHV7kKM&w=1600&h=1067&q=BMW%20M5%202022&ved=2ahUKEwjYwpCG1IiEAxVi8ckDHdPIDnkQMygDegQIARBb"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/m5/2021/oem/2021_bmw_m5_sedan_base_fq_oem_3_1600.jpg"
     )
 
     private val BMW_14 = Car(
@@ -491,7 +491,7 @@ object BMW {
             "Ambient Lighting",
             "Panoramic Moonroof"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2Fx6-m%2F2021%2Foem%2F2021_bmw_x6-m_4dr-suv_base_fq_oem_1_1600.jpg&tbnid=fFlHLGFlLiR1NM&vet=12ahUKEwi-pM6P1IiEAxXnHdAFHQQvAS8QMygCegQIARBd..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2Fx6-m%2F2022%2F&docid=Kh3FbuYPr1OnLM&w=1600&h=1067&q=BMW%20X6%20M%202022&ved=2ahUKEwi-pM6P1IiEAxXnHdAFHQQvAS8QMygCegQIARBd"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/x6-m/2021/oem/2021_bmw_x6-m_4dr-suv_base_fq_oem_1_1600.jpg"
     )
 
     private val BMW_15 = Car(
@@ -525,7 +525,7 @@ object BMW {
             "Ambient Air Package",
             "Wireless Charging"
         ),
-        imageUrl = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.ed.edmunds-media.com%2Fbmw%2F8-series-gran-coupe%2F2020%2Foem%2F2020_bmw_8-series-gran-coupe_sedan_840i_fq_oem_1_1600.jpg&tbnid=ZDxlCOoG0H06TM&vet=12ahUKEwjr26KZ1IiEAxVpyMkDHYwyChsQMygBegQIARBZ..i&imgrefurl=https%3A%2F%2Fwww.edmunds.com%2Fbmw%2F8-series-gran-coupe%2F2022%2F&docid=zqLTwXS26fSBIM&w=1600&h=1067&q=BMW%208%20Series%202022&ved=2ahUKEwjr26KZ1IiEAxVpyMkDHYwyChsQMygBegQIARBZ"
+        imageUrl = "https://media.ed.edmunds-media.com/bmw/8-series-gran-coupe/2020/oem/2020_bmw_8-series-gran-coupe_sedan_840i_fq_oem_1_1600.jpg"
     )
 
     val list: List<Car> = listOf(BMW_1, BMW_2, BMW_3, BMW_4, BMW_5, BMW_6, BMW_7, BMW_8, BMW_9, BMW_10, BMW_11, BMW_12, BMW_13, BMW_14, BMW_15)

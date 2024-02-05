@@ -1,7 +1,6 @@
 package com.cars.info.search
 
 import android.app.Application
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.cars.info.common.models.CarListItemUI
@@ -30,7 +29,6 @@ class SearchViewModel @Inject constructor(
     val cars: StateFlow<List<CarListItemUI>> = make
         .flatMapLatest { repository.getCars(it) }
         .map { list ->
-            Log.d("MY_TEST_TAG", "list size = ${list.size}")
             list.map { it.convertToListItemUi(application) }
         }
         .stateIn(
@@ -39,5 +37,16 @@ class SearchViewModel @Inject constructor(
             initialValue = emptyList()
         )
 
+    fun onCarListItemClicked(item: CarListItemUI) {
+        TODO("Not yet implemented")
+    }
+
+    fun onCarListItemFavouriteClicked(item: CarListItemUI) {
+        TODO("Not yet implemented")
+    }
+
+    fun onCarListItemCompareClicked(item: CarListItemUI) {
+        TODO("Not yet implemented")
+    }
 
 }

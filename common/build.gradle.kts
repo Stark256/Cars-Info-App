@@ -45,6 +45,11 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
 
+
+    // Glide
+    kapt(libs.glide.compiler)
+    implementation(libs.glide)
+
     // Hilt
     kapt(libs.hilt.compiler)
     implementation(libs.hilt.android)
