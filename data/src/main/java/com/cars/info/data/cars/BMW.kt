@@ -1,18 +1,19 @@
 package com.cars.info.data.cars
 
-import com.cars.info.data.models.BodyType
-import com.cars.info.data.models.Car
-import com.cars.info.data.models.Dimensions
-import com.cars.info.data.models.EngineDisplacement
-import com.cars.info.data.models.FuelEfficiencyMPG
-import com.cars.info.data.models.FuelType
-import com.cars.info.data.models.TransmissionType
+import com.cars.info.data.models.car.BodyType
+import com.cars.info.data.models.car.Car
+import com.cars.info.data.models.car.Dimensions
+import com.cars.info.data.models.car.EngineDisplacement
+import com.cars.info.data.models.car.FuelEfficiencyMPG
+import com.cars.info.data.models.car.FuelType
+import com.cars.info.data.models.car.Make
+import com.cars.info.data.models.car.TransmissionType
 
 
 object BMW {
     private val BMW_1 = Car(
         id = "b1",
-        make = "BMW",
+        make = Make.BMW,
         model = "3 Series",
         year = 2022,
         price = 41250,
@@ -47,7 +48,7 @@ object BMW {
 
     private val BMW_2 = Car(
         id = "b2",
-        make = "BMW",
+        make = Make.BMW,
         model = "5 Series",
         year = 2022,
         price = 54200,
@@ -82,7 +83,7 @@ object BMW {
 
     private val BMW_3 = Car(
         id = "b3",
-        make = "BMW",
+        make = Make.BMW,
         model = "X3",
         year = 2022,
         price = 43700,
@@ -116,7 +117,7 @@ object BMW {
 
     private val BMW_4 = Car(
         id = "b4",
-        make = "BMW",
+        make = Make.BMW,
         model = "X5",
         year = 2022,
         price = 60395,
@@ -151,7 +152,7 @@ object BMW {
 
     private val BMW_5 = Car(
         id = "b5",
-        make = "BMW",
+        make = Make.BMW,
         model = "7 Series",
         year = 2022,
         price = 86800,
@@ -185,7 +186,7 @@ object BMW {
 
     private val BMW_6 = Car(
         id = "b6",
-        make = "BMW",
+        make = Make.BMW,
         model = "4 Series",
         year = 2022,
         price = 45600,
@@ -220,7 +221,7 @@ object BMW {
 
     private val BMW_7 = Car(
         id = "b7",
-        make = "BMW",
+        make = Make.BMW,
         model = "X1",
         year = 2022,
         price = 35400,
@@ -255,7 +256,7 @@ object BMW {
 
     private val BMW_8 = Car(
         id = "b8",
-        make = "BMW",
+        make = Make.BMW,
         model = "X7",
         year = 2022,
         price = 74900,
@@ -289,7 +290,7 @@ object BMW {
 
     private val BMW_9 = Car(
         id = "b9",
-        make = "BMW",
+        make = Make.BMW,
         model = "2 Series",
         year = 2022,
         price = 35900,
@@ -323,7 +324,7 @@ object BMW {
 
     private val BMW_10 = Car(
         id = "b10",
-        make = "BMW",
+        make = Make.BMW,
         model = "iX3",
         year = 2022,
         price = null,
@@ -357,7 +358,7 @@ object BMW {
 
     private val BMW_11 = Car(
         id = "b11",
-        make = "BMW",
+        make = Make.BMW,
         model = "i4",
         year = 2022,
         price = null,
@@ -391,7 +392,7 @@ object BMW {
 
     private val BMW_12 = Car(
         id = "b12",
-        make = "BMW",
+        make = Make.BMW,
         model = "M3",
         year = 2022,
         price = 70000,
@@ -426,7 +427,7 @@ object BMW {
 
     private val BMW_13 = Car(
         id = "b13",
-        make = "BMW",
+        make = Make.BMW,
         model = "M5",
         year = 2022,
         price = 104495,
@@ -461,7 +462,7 @@ object BMW {
 
     private val BMW_14 = Car(
         id = "b14",
-        make = "BMW",
+        make = Make.BMW,
         model = "X6 M",
         year = 2022,
         price = 108600,
@@ -496,7 +497,7 @@ object BMW {
 
     private val BMW_15 = Car(
         id = "b15",
-        make = "BMW",
+        make = Make.BMW,
         model = "8 Series",
         year = 2022,
         price = 86800,

@@ -8,23 +8,116 @@
         <variable
             name="viewModel"
             type="com.cars.info.search.SearchViewModel" />
+        <import type="com.cars.info.common.UiState"/>
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".SearchFragment">
 
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/search_car_list_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:scrimAnimationDuration="0">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/search_car_list_search_bar_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginTop="8dp"
+                    app:cardElevation="4dp"
+                    android:layout_marginHorizontal="16dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/search_car_list_edit_text"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:background="@null"
+                            android:hint="@string/search_string"
+                            android:inputType="text"
+                            android:textSize="16sp"
+                            android:focusable="true"
+                            android:maxLines="1"
+                            android:focusableInTouchMode="true"
+                            android:imeOptions="actionSearch"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginEnd="4dp"
+                            android:text="@={viewModel.searchField}"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/search_car_list_clear_button"/>
+
+                        <ImageView
+                            android:id="@+id/search_car_list_clear_button"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:padding="2dp"
+                            isVisible="@{!viewModel.searchField.empty}"
+                            android:layout_marginEnd="4dp"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/search_car_list_filter_button"
+                            android:src="@drawable/ic_close"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="@{() -> viewModel.onClearSearchClicked()}" />
+
+                        <ImageView
+                            android:id="@+id/search_car_list_filter_button"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:padding="2dp"
+                            android:src="@drawable/ic_filter"
+                            android:layout_marginEnd="16dp"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:onClick="@{() -> viewModel.onFilterClicked()}" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/search_car_list"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            isVisible="@{viewModel.uiState instanceof UiState.Success}"
             tools:listitem="@layout/car_list_item" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageView
+            android:id="@+id/search_car_list_empty_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_empty_box"
+            android:layout_margin="64dp"
+            isVisible="@{viewModel.uiState instanceof UiState.Empty}"
+            tools:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/search_car_list_progress"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            isVisible="@{viewModel.uiState instanceof UiState.Loading}"
+            android:layout_gravity="center"
+            tools:visibility="gone" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

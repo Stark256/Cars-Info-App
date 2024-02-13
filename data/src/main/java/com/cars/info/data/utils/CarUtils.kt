@@ -4,11 +4,11 @@ import android.content.Context
 import com.cars.info.common.models.CarListItemUI
 import com.cars.info.common.R
 import com.cars.info.common.models.ImageTextUI
-import com.cars.info.data.models.BodyType
-import com.cars.info.data.models.Car
-import com.cars.info.data.models.EngineDisplacement
-import com.cars.info.data.models.FuelType
-import com.cars.info.data.models.TransmissionType
+import com.cars.info.data.models.car.BodyType
+import com.cars.info.data.models.car.Car
+import com.cars.info.data.models.car.EngineDisplacement
+import com.cars.info.data.models.car.FuelType
+import com.cars.info.data.models.car.TransmissionType
 import java.text.NumberFormat
 import java.util.Locale
 
@@ -96,7 +96,7 @@ fun Car.convertToListItemUi(context: Context): CarListItemUI {
 
     return CarListItemUI.Builder()
         .id(this.id)
-        .make(this.make)
+        .make(this.make.string)
         .name(getName())
         .imageUrl(this.imageUrl)
         .shortDescription(getShortDescription())

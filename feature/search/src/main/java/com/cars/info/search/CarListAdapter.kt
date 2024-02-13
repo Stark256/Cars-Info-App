@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.cars.info.common.databinding.CarListItemBinding
+import com.cars.info.search.databinding.CarListItemBinding
 import com.cars.info.common.models.CarListItemUI
 
 internal class CarListAdapter(
@@ -62,11 +62,14 @@ internal class CarListAdapter(
         fun bind(carListItemUI: CarListItemUI) {
             binding.apply {
                 carListItem = carListItemUI
+                onItemClickListener = carListItemClickListener
+                onItemCompareClickListener = carListItemCompareClickListener
+                onItemFavouritesClickListener = carListItemFavouritesClickListener
             }
         }
-        fun update(carListItemUI: CarListItemUI) {
-            binding.carListItem = carListItemUI
-        }
+//        fun update(carListItemUI: CarListItemUI) {
+//            binding.carListItem = carListItemUI
+//        }
     }
 }
 

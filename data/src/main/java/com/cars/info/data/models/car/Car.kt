@@ -1,8 +1,8 @@
-package com.cars.info.data.models
+package com.cars.info.data.models.car
 
 data class Car(
     val id: String, // n1
-    val make: String, // Nissan
+    val make: Make, // Nissan
     val model: String, // Frontier
     val year: Int, // 2022
     val price: Int?, // $50,200

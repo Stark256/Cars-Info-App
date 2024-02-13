@@ -1,18 +1,19 @@
 package com.cars.info.data.cars
 
-import com.cars.info.data.models.BodyType
-import com.cars.info.data.models.Car
-import com.cars.info.data.models.Dimensions
-import com.cars.info.data.models.EngineDisplacement
-import com.cars.info.data.models.FuelEfficiencyMPG
-import com.cars.info.data.models.FuelType
-import com.cars.info.data.models.TransmissionType
+import com.cars.info.data.models.car.BodyType
+import com.cars.info.data.models.car.Car
+import com.cars.info.data.models.car.Dimensions
+import com.cars.info.data.models.car.EngineDisplacement
+import com.cars.info.data.models.car.FuelEfficiencyMPG
+import com.cars.info.data.models.car.FuelType
+import com.cars.info.data.models.car.Make
+import com.cars.info.data.models.car.TransmissionType
 
 object NISSAN {
 
     private val NISSAN_1 = Car(
         id = "n1",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Altima",
         year = 2022,
         price = 24350,
@@ -42,7 +43,7 @@ object NISSAN {
 
     private val NISSAN_2 = Car(
         id = "n2",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Rogue",
         year = 2022,
         price = 25750,
@@ -72,7 +73,7 @@ object NISSAN {
 
     private val NISSAN_3 = Car(
         id = "n3",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Sentra",
         year = 2022,
         price = 20410,
@@ -102,7 +103,7 @@ object NISSAN {
 
     private val NISSAN_4 = Car(
         id = "n4",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Murano",
         year = 2022,
         price = 32510,
@@ -132,7 +133,7 @@ object NISSAN {
 
     private val NISSAN_5 = Car(
         id = "n5",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Maxima",
         year = 2022,
         price = 37240,
@@ -162,7 +163,7 @@ object NISSAN {
 
     private val NISSAN_6 = Car(
         id = "n6",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Titan",
         year = 2022,
         price = 36550,
@@ -192,7 +193,7 @@ object NISSAN {
 
     private val NISSAN_7 = Car(
         id = "n7",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Kicks",
         year = 2022,
         price = 19500,
@@ -222,7 +223,7 @@ object NISSAN {
 
     private val NISSAN_8 = Car(
         id = "n8",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Pathfinder",
         year = 2022,
         price = 31980,
@@ -252,7 +253,7 @@ object NISSAN {
 
     private val NISSAN_9 = Car(
         id = "n9",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Armada",
         year = 2022,
         price = 48900,
@@ -282,7 +283,7 @@ object NISSAN {
 
     private val NISSAN_10 = Car(
         id = "n10",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "370Z",
         year = 2022,
         price = 30090,
@@ -312,7 +313,7 @@ object NISSAN {
 
     private val NISSAN_11 = Car(
         id = "n11",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "GT-R",
         year = 2022,
         price = 113540,
@@ -342,7 +343,7 @@ object NISSAN {
 
     private val NISSAN_12 = Car(
         id = "n12",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Frontier",
         year = 2022,
         price = 27190,
@@ -372,7 +373,7 @@ object NISSAN {
 
     private val NISSAN_13 = Car(
         id = "n13",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "Versa",
         year = 2022,
         price = 14930,
@@ -402,7 +403,7 @@ object NISSAN {
 
     private val NISSAN_14 = Car(
         id = "n14",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "LEAF",
         year = 2022,
         price = 27400,
@@ -432,7 +433,7 @@ object NISSAN {
 
     private val NISSAN_15 = Car(
         id = "n15",
-        make = "Nissan",
+        make = Make.NISSAN,
         model = "NV200 Compact Cargo",
         year = 2022,
         price = 23800,

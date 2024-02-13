@@ -1,18 +1,19 @@
 package com.cars.info.data.cars
 
-import com.cars.info.data.models.BodyType
-import com.cars.info.data.models.Car
-import com.cars.info.data.models.Dimensions
-import com.cars.info.data.models.EngineDisplacement
-import com.cars.info.data.models.FuelEfficiencyMPG
-import com.cars.info.data.models.FuelType
-import com.cars.info.data.models.TransmissionType
+import com.cars.info.data.models.car.BodyType
+import com.cars.info.data.models.car.Car
+import com.cars.info.data.models.car.Dimensions
+import com.cars.info.data.models.car.EngineDisplacement
+import com.cars.info.data.models.car.FuelEfficiencyMPG
+import com.cars.info.data.models.car.FuelType
+import com.cars.info.data.models.car.Make
+import com.cars.info.data.models.car.TransmissionType
 
 object FORD {
 
     private val FORD_1 = Car(
         id = "f1",
-        make = "Ford",
+        make = Make.FORD,
         model = "F-150",
         year = 2022,
         price = 28940,
@@ -45,7 +46,7 @@ object FORD {
 
     private val FORD_2 = Car(
         id = "f2",
-        make = "Ford",
+        make = Make.FORD,
         model = "Escape",
         year = 2022,
         price = 24885,
@@ -77,7 +78,7 @@ object FORD {
 
     private val FORD_3 = Car(
         id = "f3",
-        make = "Ford",
+        make = Make.FORD,
         model = "Explorer",
         year = 2022,
         price = 32225,
@@ -110,7 +111,7 @@ object FORD {
 
     private val FORD_4 = Car(
         id = "f4",
-        make = "Ford",
+        make = Make.FORD,
         model = "Mustang",
         year = 2022,
         price = 27205,
@@ -142,7 +143,7 @@ object FORD {
 
     private val FORD_5 = Car(
         id = "f5",
-        make = "Ford",
+        make = Make.FORD,
         model = "Edge",
         year = 2022,
         price = 32345,
@@ -174,7 +175,7 @@ object FORD {
 
     private val FORD_6 = Car(
         id = "f6",
-        make = "Ford",
+        make = Make.FORD,
         model = "Ranger",
         year = 2022,
         price = 24820,
@@ -206,7 +207,7 @@ object FORD {
 
     private val FORD_7 = Car(
         id = "f7",
-        make = "Ford",
+        make = Make.FORD,
         model = "Fusion",
         year = 2022,
         price = 23170,
@@ -238,7 +239,7 @@ object FORD {
 
     private val FORD_8 = Car(
         id = "f8",
-        make = "Ford",
+        make = Make.FORD,
         model = "Bronco Sport",
         year = 2022,
         price = 28315,
@@ -270,7 +271,7 @@ object FORD {
 
     private val FORD_9 = Car(
         id = "f9",
-        make = "Ford",
+        make = Make.FORD,
         model = "EcoSport",
         year = 2022,
         price = 20995,
@@ -300,7 +301,7 @@ object FORD {
 
     private val FORD_10 = Car(
         id = "f10",
-        make = "Ford",
+        make = Make.FORD,
         model = "Expedition",
         year = 2022,
         price = 51290,
@@ -332,7 +333,7 @@ object FORD {
 
     private val FORD_11 = Car(
         id = "f11",
-        make = "Ford",
+        make = Make.FORD,
         model = "Expedition MAX",
         year = 2022,
         price = 54810,
@@ -364,7 +365,7 @@ object FORD {
 
     private val FORD_12 = Car(
         id = "f12",
-        make = "Ford",
+        make = Make.FORD,
         model = "Maverick",
         year = 2022,
         price = 19995,
