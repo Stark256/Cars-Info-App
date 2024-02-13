@@ -1,4 +1,4 @@
-package com.cars.info.data.models
+package com.cars.info.data.models.car
 
 enum class TransmissionType {
     AUTOMATIC,

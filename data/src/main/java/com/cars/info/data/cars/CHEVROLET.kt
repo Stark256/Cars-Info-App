@@ -1,18 +1,19 @@
 package com.cars.info.data.cars
 
-import com.cars.info.data.models.BodyType
-import com.cars.info.data.models.Car
-import com.cars.info.data.models.Dimensions
-import com.cars.info.data.models.EngineDisplacement
-import com.cars.info.data.models.FuelEfficiencyMPG
-import com.cars.info.data.models.FuelType
-import com.cars.info.data.models.TransmissionType
+import com.cars.info.data.models.car.BodyType
+import com.cars.info.data.models.car.Car
+import com.cars.info.data.models.car.Dimensions
+import com.cars.info.data.models.car.EngineDisplacement
+import com.cars.info.data.models.car.FuelEfficiencyMPG
+import com.cars.info.data.models.car.FuelType
+import com.cars.info.data.models.car.Make
+import com.cars.info.data.models.car.TransmissionType
 
 object CHEVROLET {
 
     private val CHEVROLET_1 = Car(
         id = "c1",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Silverado 1500",
         year = 2022,
         price = 28600,
@@ -44,7 +45,7 @@ object CHEVROLET {
 
     private val CHEVROLET_2 = Car(
         id = "c2",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Equinox",
         year = 2022,
         price = 23800,
@@ -76,7 +77,7 @@ object CHEVROLET {
 
     private val CHEVROLET_3 = Car(
         id = "c3",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Malibu",
         year = 2022,
         price = 23300,
@@ -107,7 +108,7 @@ object CHEVROLET {
 
     private val CHEVROLET_4 = Car(
         id = "c4",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Traverse",
         year = 2022,
         price = 29800,
@@ -139,7 +140,7 @@ object CHEVROLET {
 
     private val CHEVROLET_5 = Car(
         id = "c5",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Silverado 2500HD",
         year = 2022,
         price = 34700,
@@ -171,7 +172,7 @@ object CHEVROLET {
 
     private val CHEVROLET_6 = Car(
         id = "c6",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Blazer",
         year = 2022,
         price = 28800,
@@ -203,7 +204,7 @@ object CHEVROLET {
 
     private val CHEVROLET_7 = Car(
         id = "c7",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Colorado",
         year = 2022,
         price = 25200,
@@ -235,7 +236,7 @@ object CHEVROLET {
 
     private val CHEVROLET_8 = Car(
         id = "c8",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Camaro",
         year = 2022,
         price = 75000,
@@ -267,7 +268,7 @@ object CHEVROLET {
 
     private val CHEVROLET_9 = Car(
         id = "c9",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Tahoe",
         year = 2022,
         price = 49600,
@@ -298,7 +299,7 @@ object CHEVROLET {
 
     private val CHEVROLET_10 = Car(
         id = "c10",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Sonic",
         year = 2022,
         price = 16700,
@@ -329,7 +330,7 @@ object CHEVROLET {
 
     private val CHEVROLET_11 = Car(
         id = "c11",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Suburban",
         year = 2022,
         price = 52600,
@@ -360,7 +361,7 @@ object CHEVROLET {
 
     private val CHEVROLET_12 = Car(
         id = "c12",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Trax",
         year = 2022,
         price = 21300,
@@ -391,7 +392,7 @@ object CHEVROLET {
 
     private val CHEVROLET_13 = Car(
         id = "c13",
-        make = "Chevrolet",
+        make = Make.CHEVROLET,
         model = "Bolt EV",
         year = 2022,
         price = 31000,

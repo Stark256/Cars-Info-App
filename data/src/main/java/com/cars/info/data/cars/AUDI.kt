@@ -1,18 +1,19 @@
 package com.cars.info.data.cars
 
-import com.cars.info.data.models.BodyType
-import com.cars.info.data.models.Car
-import com.cars.info.data.models.Dimensions
-import com.cars.info.data.models.EngineDisplacement
-import com.cars.info.data.models.FuelEfficiencyMPG
-import com.cars.info.data.models.FuelType
-import com.cars.info.data.models.TransmissionType
+import com.cars.info.data.models.car.BodyType
+import com.cars.info.data.models.car.Car
+import com.cars.info.data.models.car.Dimensions
+import com.cars.info.data.models.car.EngineDisplacement
+import com.cars.info.data.models.car.FuelEfficiencyMPG
+import com.cars.info.data.models.car.FuelType
+import com.cars.info.data.models.car.Make
+import com.cars.info.data.models.car.TransmissionType
 
 object AUDI {
 
     private val AUDI_1 = Car(
         id = "a1",
-        make = "Audi",
+        make = Make.AUDI,
         model = "A4",
         year = 2022,
         price = 39100,
@@ -45,7 +46,7 @@ object AUDI {
 
     private val AUDI_2 = Car(
         id = "a2",
-        make = "Audi",
+        make = Make.AUDI,
         model = "Q5",
         year = 2022,
         price = 43300,
@@ -78,7 +79,7 @@ object AUDI {
 
     private val AUDI_3 = Car(
         id = "a3",
-        make = "Audi",
+        make = Make.AUDI,
         model = "A6",
         year = 2022,
         price = 54900,
@@ -111,7 +112,7 @@ object AUDI {
 
     private val AUDI_4 = Car(
         id = "a4",
-        make = "Audi",
+        make = Make.AUDI,
         model = "Q7",
         year = 2022,
         price = 54950,
@@ -144,7 +145,7 @@ object AUDI {
 
     private val AUDI_5 = Car(
         id = "a5",
-        make = "Audi",
+        make = Make.AUDI,
         model = "A8",
         year = 2022,
         price = 86500,
@@ -177,7 +178,7 @@ object AUDI {
 
     private val AUDI_6 = Car(
         id = "a6",
-        make = "Audi",
+        make = Make.AUDI,
         model = "Q3",
         year = 2022,
         price = 36000,
@@ -210,7 +211,7 @@ object AUDI {
 
     private val AUDI_7 = Car(
         id = "a7",
-        make = "Audi",
+        make = Make.AUDI,
         model = "e-tron",
         year = 2022,
         price = 65900,
@@ -243,7 +244,7 @@ object AUDI {
 
     private val AUDI_8 = Car(
         id = "a8",
-        make = "Audi",
+        make = Make.AUDI,
         model = "A5",
         year = 2022,
         price = 44000,
@@ -275,7 +276,7 @@ object AUDI {
 
     private val AUDI_9 = Car(
         id = "a9",
-        make = "Audi",
+        make = Make.AUDI,
         model = "Q8",
         year = 2022,
         price = 69100,
@@ -308,7 +309,7 @@ object AUDI {
 
     private val AUDI_10 = Car(
         id = "a10",
-        make = "Audi",
+        make = Make.AUDI,
         model = "S4",
         year = 2022,
         price = 50200,
@@ -341,7 +342,7 @@ object AUDI {
 
     private val AUDI_11 = Car(
         id = "a11",
-        make = "Audi",
+        make = Make.AUDI,
         model = "TT RS",
         year = 2022,
         price = 67600,
@@ -374,7 +375,7 @@ object AUDI {
 
     private val AUDI_12 = Car(
         id = "a12",
-        make = "Audi",
+        make = Make.AUDI,
         model = "RS Q8",
         year = 2022,
         price = 114500,
@@ -407,7 +408,7 @@ object AUDI {
 
     private val AUDI_13 = Car(
         id = "a13",
-        make = "Audi",
+        make = Make.AUDI,
         model = "SQ5",
         year = 2022,
         price = 53900,
@@ -440,7 +441,7 @@ object AUDI {
 
     private val AUDI_14 = Car(
         id = "a14",
-        make = "Audi",
+        make = Make.AUDI,
         model = "RS5 Sportback",
         year = 2022,
         price = 75100,
@@ -474,7 +475,7 @@ object AUDI {
 
     private val AUDI_15 = Car(
         id = "a15",
-        make = "Audi",
+        make = Make.AUDI,
         model = "RS6 Avant",
         year = 2022,
         price = null,

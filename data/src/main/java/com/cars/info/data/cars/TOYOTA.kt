@@ -1,18 +1,19 @@
 package com.cars.info.data.cars
 
-import com.cars.info.data.models.BodyType
-import com.cars.info.data.models.Car
-import com.cars.info.data.models.Dimensions
-import com.cars.info.data.models.EngineDisplacement
-import com.cars.info.data.models.FuelEfficiencyMPG
-import com.cars.info.data.models.FuelType
-import com.cars.info.data.models.TransmissionType
+import com.cars.info.data.models.car.BodyType
+import com.cars.info.data.models.car.Car
+import com.cars.info.data.models.car.Dimensions
+import com.cars.info.data.models.car.EngineDisplacement
+import com.cars.info.data.models.car.FuelEfficiencyMPG
+import com.cars.info.data.models.car.FuelType
+import com.cars.info.data.models.car.Make
+import com.cars.info.data.models.car.TransmissionType
 
 object TOYOTA {
 
     private val TOYOTA_1 = Car(
         id = "t1",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Camry",
         year = 2022,
         price = 24970,
@@ -45,7 +46,7 @@ object TOYOTA {
 
     private val TOYOTA_2 = Car(
         id = "t2",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "RAV4",
         year = 2022,
         price = 26350,
@@ -78,7 +79,7 @@ object TOYOTA {
 
     private val TOYOTA_3 = Car(
         id = "t3",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Corolla",
         year = 2022,
         price = 20025,
@@ -109,7 +110,7 @@ object TOYOTA {
 
     private val TOYOTA_4 = Car(
         id = "t4",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Highlander",
         year = 2022,
         price = 34810,
@@ -142,7 +143,7 @@ object TOYOTA {
 
     private val TOYOTA_5 = Car(
         id = "t5",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Tacoma",
         year = 2022,
         price = 26400,
@@ -175,7 +176,7 @@ object TOYOTA {
 
     private val TOYOTA_6 = Car(
         id = "t6",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Sienna",
         year = 2022,
         price = 34460,
@@ -208,7 +209,7 @@ object TOYOTA {
 
     private val TOYOTA_7 = Car(
         id = "t7",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Prius",
         year = 2022,
         price = 24525,
@@ -240,7 +241,7 @@ object TOYOTA {
 
     private val TOYOTA_8 = Car(
         id = "t8",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "4Runner ",
         year = 2022,
         price = 36115,
@@ -273,7 +274,7 @@ object TOYOTA {
 
     private val TOYOTA_9 = Car(
         id = "t9",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "C-HR",
         year = 2022,
         price = 21645,
@@ -305,7 +306,7 @@ object TOYOTA {
 
     private val TOYOTA_10 = Car(
         id = "t10",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Avalon",
         year = 2022,
         price = 36125,
@@ -338,7 +339,7 @@ object TOYOTA {
 
     private val TOYOTA_11 = Car(
         id = "t11",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Land Cruiser",
         year = 2022,
         price = 85665,
@@ -371,7 +372,7 @@ object TOYOTA {
 
     private val TOYOTA_12 = Car(
         id = "t12",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Supra",
         year = 2022,
         price = 42990,
@@ -404,7 +405,7 @@ object TOYOTA {
 
     private val TOYOTA_13 = Car(
         id = "t13",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Yaris",
         year = 2022,
         price = 15650,
@@ -434,7 +435,7 @@ object TOYOTA {
 
     private val TOYOTA_14 = Car(
         id = "t14",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Prius Prime",
         year = 2022,
         price = 28220,
@@ -465,7 +466,7 @@ object TOYOTA {
 
     private val TOYOTA_15 = Car(
         id = "t15",
-        make = "Toyota",
+        make = Make.TOYOTA,
         model = "Prius c",
         year = 2022,
         price = 21515,

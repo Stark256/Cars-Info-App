@@ -1,4 +1,4 @@
-package com.cars.info.data.models
+package com.cars.info.data.models.car
 
 sealed interface EngineDisplacement {
     data object Electric: EngineDisplacement
