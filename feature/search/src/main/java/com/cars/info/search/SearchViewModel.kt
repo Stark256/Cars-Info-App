@@ -10,7 +10,6 @@ import com.cars.info.common.lifecycle.Event
 import com.cars.info.common.lifecycle.mutableEventFlow
 import com.cars.info.common.lifecycle.tryEmit
 import com.cars.info.common.models.CarListItemUI
-import com.cars.info.data.models.car.Car
 import com.cars.info.data.models.car.Make
 import com.cars.info.data.models.filter.FilterOptions
 import com.cars.info.data.repository.CarRepository
@@ -21,9 +20,9 @@ import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.flow.stateIn
 import javax.inject.Inject
 
@@ -33,6 +32,10 @@ class SearchViewModel @Inject constructor(
     application: Application,
     private val repository: CarRepository
 ) : ViewModel() {
+
+    private companion object {
+        private val EMPTY_CAR_LIST = emptyList<CarListItemUI>()
+    }
 
     sealed interface Action {
         data class GoToFilterOptions(val filterOptions: FilterOptions): Action
@@ -46,23 +49,14 @@ class SearchViewModel @Inject constructor(
         )
     )
 
-    private val cars: Flow<RepositoryResult<List<Car>>> =
-        _reload
-            .flatMapLatest {
-                repository.searchCars(
-                    searchQuery = searchField.value,
-                    filterOptions = filterOptions.value
-                )
-            }
-
-    private var isSearchPerformed = false
-
-    private val _action = mutableEventFlow<Action>()
-    val action: Flow<Event<Action>> = _action
-
-    val searchField = MutableStateFlow<String>("")
-
-    val uiState: StateFlow<UiState<List<CarListItemUI>>> = cars
+    private val carsResult = _reload
+        .onEach {  uiState.tryEmit(UiState.Loading) }
+        .flatMapLatest {
+            repository.searchCars(
+                searchQuery = searchField.value,
+                filterOptions = filterOptions.value
+            )
+        }
         .map { result ->
             when (result) {
                 is RepositoryResult.Success ->
@@ -70,14 +64,28 @@ class SearchViewModel @Inject constructor(
                         .takeIf { it.isNotEmpty() }
                         ?.map { it.convertToListItemUi(application) }
                         ?.let { UiState.Success(it) } ?: UiState.Empty
-                is RepositoryResult.Error -> UiState.Error(message = result.message)
+                is RepositoryResult.Error -> {
+                    UiState.Error(message = result.message)
+                }
             }
+        }
+        .onEach { state ->
+            uiState.tryEmit(state)
         }
         .stateIn(
             scope = viewModelScope,
             started = SharingStarted.Eagerly,
-            initialValue = UiState.Loading
+            initialValue = EMPTY_CAR_LIST
         )
+
+    private var isSearchPerformed = false
+
+    private val _action = mutableEventFlow<Action>()
+    val action: Flow<Event<Action>> = _action
+
+    val uiState = MutableStateFlow<UiState<List<CarListItemUI>>>(UiState.Loading)
+
+    val searchField = MutableStateFlow<String>("")
 
     init {
         reload()
