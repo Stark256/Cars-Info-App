@@ -6,6 +6,9 @@ import androidx.lifecycle.viewModelScope
 import com.cars.info.common.UiState
 import com.cars.info.common.kotlin.mutableSignalFlow
 import com.cars.info.common.kotlin.signal
+import com.cars.info.common.lifecycle.Event
+import com.cars.info.common.lifecycle.mutableEventFlow
+import com.cars.info.common.lifecycle.tryEmit
 import com.cars.info.common.models.CarListItemUI
 import com.cars.info.data.models.car.Car
 import com.cars.info.data.models.car.Make
@@ -31,15 +34,17 @@ class SearchViewModel @Inject constructor(
     private val repository: CarRepository
 ) : ViewModel() {
 
+    sealed interface Action {
+        data class GoToFilterOptions(val filterOptions: FilterOptions): Action
+    }
+
+    private val _reload = mutableSignalFlow()
+
     private val filterOptions = MutableStateFlow(
         FilterOptions.default(
             makes = listOf(Make.BMW, Make.AUDI)
         )
     )
-
-    val searchField = MutableStateFlow<String>("")
-
-    private val _reload = mutableSignalFlow()
 
     private val cars: Flow<RepositoryResult<List<Car>>> =
         _reload
@@ -50,13 +55,21 @@ class SearchViewModel @Inject constructor(
                 )
             }
 
+    private var isSearchPerformed = false
+
+    private val _action = mutableEventFlow<Action>()
+    val action: Flow<Event<Action>> = _action
+
+    val searchField = MutableStateFlow<String>("")
 
     val uiState: StateFlow<UiState<List<CarListItemUI>>> = cars
         .map { result ->
             when (result) {
-                is RepositoryResult.Success -> UiState.Success(
-                    result.result.map { it.convertToListItemUi(application) }
-                )
+                is RepositoryResult.Success ->
+                    result.result
+                        .takeIf { it.isNotEmpty() }
+                        ?.map { it.convertToListItemUi(application) }
+                        ?.let { UiState.Success(it) } ?: UiState.Empty
                 is RepositoryResult.Error -> UiState.Error(message = result.message)
             }
         }
@@ -72,10 +85,19 @@ class SearchViewModel @Inject constructor(
 
     fun onSearchButtonClicked() {
         reload()
+        isSearchPerformed = true
+    }
+
+    fun onClearSearchClicked() {
+        searchField.value = ""
+        if(isSearchPerformed) {
+            isSearchPerformed = false
+            reload()
+        }
     }
 
     fun onFilterClicked() {
-//        TODO("Not yet implemented")
+        _action.tryEmit(Action.GoToFilterOptions(filterOptions.value))
     }
 
     fun onCarListItemClicked(item: CarListItemUI) {

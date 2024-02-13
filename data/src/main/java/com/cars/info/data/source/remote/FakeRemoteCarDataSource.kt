@@ -39,7 +39,7 @@ class FakeRemoteCarDataSource @Inject constructor(
     private fun searchFilterCars(searchQuery: String, filterOptions: FilterOptions): List<Car> =
         getAllCarsList()
             .asSequence()
-            .filter { (it.make.string + " " + it.model + " " + it.year).contains(searchQuery.trim()) }
+            .filter { (it.make.string + " " + it.model + " " + it.year).contains(searchQuery.trim(), ignoreCase = true) }
             .filter { filterOptions.makes.isCarParameterIsInList(it.make) }
             .filter { filterOptions.bodyTypes.isCarParameterIsInList(it.bodyType) }
             .filter { filterOptions.transmissionTypes.isCarParameterIsInList(it.transmissionType) }

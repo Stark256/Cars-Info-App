@@ -2,7 +2,6 @@ package com.cars.info.search
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import androidx.fragment.app.viewModels
@@ -12,12 +11,13 @@ import androidx.lifecycle.repeatOnLifecycle
 import com.cars.info.common.UiState
 import com.cars.info.common.fragment.BaseFragment
 import com.cars.info.common.kotlin.skip
+import com.cars.info.common.lifecycle.Event
 import com.cars.info.common.models.CarListItemUI
 import com.cars.info.common.recyclerView.addDivider
+import com.cars.info.data.models.filter.FilterOptions
 import com.cars.info.search.databinding.FragmentSearchBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
 
@@ -63,6 +63,14 @@ class SearchFragment : BaseFragment<FragmentSearchBinding>() {
         }
 
         lifecycleScope.launch {
+            repeatOnLifecycle(Lifecycle.State.RESUMED) {
+                viewModel.action
+                    .onEach(::handleEvent)
+                    .collect()
+            }
+        }
+
+        lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.CREATED) {
                 viewModel.uiState
                     .onEach { state ->
@@ -74,5 +82,16 @@ class SearchFragment : BaseFragment<FragmentSearchBinding>() {
                     .collect()
             }
         }
+    }
+
+    private fun handleEvent(event: Event<SearchViewModel.Action>) {
+        when(val action = event.pop()) {
+            is SearchViewModel.Action.GoToFilterOptions -> navigateToFilterOptionsScreen(action.filterOptions)
+            null -> skip
+        }
+    }
+
+    private fun navigateToFilterOptionsScreen(filterOptions: FilterOptions) {
+        // TODO implement
     }
 }

@@ -18,6 +18,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor() : ViewModel() {
+
     sealed interface Action {
         data object GoToSearch : Action
         data object GoToComparation : Action
