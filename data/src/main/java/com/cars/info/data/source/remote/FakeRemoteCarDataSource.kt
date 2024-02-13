@@ -42,6 +42,7 @@ class FakeRemoteCarDataSource @Inject constructor(
             .filter { (it.make.string + " " + it.model + " " + it.year).contains(searchQuery.trim(), ignoreCase = true) }
             .filter { filterOptions.makes.isCarParameterIsInList(it.make) }
             .filter { filterOptions.bodyTypes.isCarParameterIsInList(it.bodyType) }
+            .filter { filterOptions.fuelType.isCarParameterIsInList(it.fuelType) }
             .filter { filterOptions.transmissionTypes.isCarParameterIsInList(it.transmissionType) }
             .filter { filterOptions.priceRange?.contains(it.price) ?: true }
             .toList()
